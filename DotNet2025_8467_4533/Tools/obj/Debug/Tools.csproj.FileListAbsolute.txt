@@ -1,0 +1,82 @@
+C:\Users\User\Desktop\פרויקט C#\DotNet2025_8467_4533\bin\Tools.deps.json
+C:\Users\User\Desktop\פרויקט C#\DotNet2025_8467_4533\bin\Tools.dll
+C:\Users\User\Desktop\פרויקט C#\DotNet2025_8467_4533\bin\Tools.pdb
+C:\Users\User\Desktop\פרויקט C#\DotNet2025_8467_4533\Tools\obj\Debug\Tools.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\פרויקט C#\DotNet2025_8467_4533\Tools\obj\Debug\Tools.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\פרויקט C#\DotNet2025_8467_4533\Tools\obj\Debug\Tools.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\פרויקט C#\DotNet2025_8467_4533\Tools\obj\Debug\Tools.AssemblyInfo.cs
+C:\Users\User\Desktop\פרויקט C#\DotNet2025_8467_4533\Tools\obj\Debug\Tools.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\פרויקט C#\DotNet2025_8467_4533\Tools\obj\Debug\Tools.dll
+C:\Users\User\Desktop\פרויקט C#\DotNet2025_8467_4533\Tools\obj\Debug\refint\Tools.dll
+C:\Users\User\Desktop\פרויקט C#\DotNet2025_8467_4533\Tools\obj\Debug\Tools.pdb
+C:\Users\User\Desktop\פרויקט C#\DotNet2025_8467_4533\Tools\obj\Debug\ref\Tools.dll
+T:\יד\שבבים\C# מתקדם\הנחיות הפרויקט\פרויקטים\אביגיל וחיה\DotNet2025_8467_4533\bin\Tools.deps.json
+T:\יד\שבבים\C# מתקדם\הנחיות הפרויקט\פרויקטים\אביגיל וחיה\DotNet2025_8467_4533\bin\Tools.dll
+T:\יד\שבבים\C# מתקדם\הנחיות הפרויקט\פרויקטים\אביגיל וחיה\DotNet2025_8467_4533\bin\Tools.pdb
+T:\יד\שבבים\C# מתקדם\הנחיות הפרויקט\פרויקטים\אביגיל וחיה\DotNet2025_8467_4533\Tools\obj\Debug\Tools.GeneratedMSBuildEditorConfig.editorconfig
+T:\יד\שבבים\C# מתקדם\הנחיות הפרויקט\פרויקטים\אביגיל וחיה\DotNet2025_8467_4533\Tools\obj\Debug\Tools.AssemblyInfoInputs.cache
+T:\יד\שבבים\C# מתקדם\הנחיות הפרויקט\פרויקטים\אביגיל וחיה\DotNet2025_8467_4533\Tools\obj\Debug\Tools.AssemblyInfo.cs
+T:\יד\שבבים\C# מתקדם\הנחיות הפרויקט\פרויקטים\אביגיל וחיה\DotNet2025_8467_4533\Tools\obj\Debug\Tools.csproj.CoreCompileInputs.cache
+T:\יד\שבבים\C# מתקדם\הנחיות הפרויקט\פרויקטים\אביגיל וחיה\DotNet2025_8467_4533\Tools\obj\Debug\Tools.dll
+T:\יד\שבבים\C# מתקדם\הנחיות הפרויקט\פרויקטים\אביגיל וחיה\DotNet2025_8467_4533\Tools\obj\Debug\refint\Tools.dll
+T:\יד\שבבים\C# מתקדם\הנחיות הפרויקט\פרויקטים\אביגיל וחיה\DotNet2025_8467_4533\Tools\obj\Debug\Tools.pdb
+T:\יד\שבבים\C# מתקדם\הנחיות הפרויקט\פרויקטים\אביגיל וחיה\DotNet2025_8467_4533\Tools\obj\Debug\ref\Tools.dll
+E:\אביגיל וחיה\DotNet2025_8467_4533\bin\Tools.deps.json
+E:\אביגיל וחיה\DotNet2025_8467_4533\bin\Tools.dll
+E:\אביגיל וחיה\DotNet2025_8467_4533\bin\Tools.pdb
+E:\אביגיל וחיה\DotNet2025_8467_4533\Tools\obj\Debug\Tools.GeneratedMSBuildEditorConfig.editorconfig
+E:\אביגיל וחיה\DotNet2025_8467_4533\Tools\obj\Debug\Tools.AssemblyInfoInputs.cache
+E:\אביגיל וחיה\DotNet2025_8467_4533\Tools\obj\Debug\Tools.AssemblyInfo.cs
+E:\אביגיל וחיה\DotNet2025_8467_4533\Tools\obj\Debug\Tools.csproj.CoreCompileInputs.cache
+E:\אביגיל וחיה\DotNet2025_8467_4533\Tools\obj\Debug\Tools.dll
+E:\אביגיל וחיה\DotNet2025_8467_4533\Tools\obj\Debug\refint\Tools.dll
+E:\אביגיל וחיה\DotNet2025_8467_4533\Tools\obj\Debug\Tools.pdb
+E:\אביגיל וחיה\DotNet2025_8467_4533\Tools\obj\Debug\ref\Tools.dll
+F:\אביגיל וחיה\DotNet2025_8467_4533\bin\Tools.deps.json
+F:\אביגיל וחיה\DotNet2025_8467_4533\bin\Tools.dll
+F:\אביגיל וחיה\DotNet2025_8467_4533\bin\Tools.pdb
+F:\אביגיל וחיה\DotNet2025_8467_4533\Tools\obj\Debug\Tools.csproj.AssemblyReference.cache
+F:\אביגיל וחיה\DotNet2025_8467_4533\Tools\obj\Debug\Tools.GeneratedMSBuildEditorConfig.editorconfig
+F:\אביגיל וחיה\DotNet2025_8467_4533\Tools\obj\Debug\Tools.AssemblyInfoInputs.cache
+F:\אביגיל וחיה\DotNet2025_8467_4533\Tools\obj\Debug\Tools.AssemblyInfo.cs
+F:\אביגיל וחיה\DotNet2025_8467_4533\Tools\obj\Debug\Tools.csproj.CoreCompileInputs.cache
+F:\אביגיל וחיה\DotNet2025_8467_4533\Tools\obj\Debug\Tools.dll
+F:\אביגיל וחיה\DotNet2025_8467_4533\Tools\obj\Debug\refint\Tools.dll
+F:\אביגיל וחיה\DotNet2025_8467_4533\Tools\obj\Debug\Tools.pdb
+F:\אביגיל וחיה\DotNet2025_8467_4533\Tools\obj\Debug\ref\Tools.dll
+T:\יד\שבבים\C# מתקדם\אביגיל וחיה\DotNet2025_8467_4533\bin\Tools.deps.json
+T:\יד\שבבים\C# מתקדם\אביגיל וחיה\DotNet2025_8467_4533\bin\Tools.dll
+T:\יד\שבבים\C# מתקדם\אביגיל וחיה\DotNet2025_8467_4533\bin\Tools.pdb
+T:\יד\שבבים\C# מתקדם\אביגיל וחיה\DotNet2025_8467_4533\Tools\obj\Debug\Tools.GeneratedMSBuildEditorConfig.editorconfig
+T:\יד\שבבים\C# מתקדם\אביגיל וחיה\DotNet2025_8467_4533\Tools\obj\Debug\Tools.AssemblyInfoInputs.cache
+T:\יד\שבבים\C# מתקדם\אביגיל וחיה\DotNet2025_8467_4533\Tools\obj\Debug\Tools.AssemblyInfo.cs
+T:\יד\שבבים\C# מתקדם\אביגיל וחיה\DotNet2025_8467_4533\Tools\obj\Debug\Tools.csproj.CoreCompileInputs.cache
+T:\יד\שבבים\C# מתקדם\אביגיל וחיה\DotNet2025_8467_4533\Tools\obj\Debug\Tools.dll
+T:\יד\שבבים\C# מתקדם\אביגיל וחיה\DotNet2025_8467_4533\Tools\obj\Debug\refint\Tools.dll
+T:\יד\שבבים\C# מתקדם\אביגיל וחיה\DotNet2025_8467_4533\Tools\obj\Debug\Tools.pdb
+T:\יד\שבבים\C# מתקדם\אביגיל וחיה\DotNet2025_8467_4533\Tools\obj\Debug\ref\Tools.dll
+E:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\bin\Tools.deps.json
+E:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\bin\Tools.dll
+E:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\bin\Tools.pdb
+E:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\Tools\obj\Debug\Tools.csproj.AssemblyReference.cache
+E:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\Tools\obj\Debug\Tools.GeneratedMSBuildEditorConfig.editorconfig
+E:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\Tools\obj\Debug\Tools.AssemblyInfoInputs.cache
+E:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\Tools\obj\Debug\Tools.AssemblyInfo.cs
+E:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\Tools\obj\Debug\Tools.csproj.CoreCompileInputs.cache
+E:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\Tools\obj\Debug\Tools.dll
+E:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\Tools\obj\Debug\refint\Tools.dll
+E:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\Tools\obj\Debug\Tools.pdb
+E:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\Tools\obj\Debug\ref\Tools.dll
+D:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\bin\Tools.deps.json
+D:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\bin\Tools.dll
+D:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\bin\Tools.pdb
+D:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\Tools\obj\Debug\Tools.csproj.AssemblyReference.cache
+D:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\Tools\obj\Debug\Tools.GeneratedMSBuildEditorConfig.editorconfig
+D:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\Tools\obj\Debug\Tools.AssemblyInfoInputs.cache
+D:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\Tools\obj\Debug\Tools.AssemblyInfo.cs
+D:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\Tools\obj\Debug\Tools.csproj.CoreCompileInputs.cache
+D:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\Tools\obj\Debug\Tools.dll
+D:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\Tools\obj\Debug\refint\Tools.dll
+D:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\Tools\obj\Debug\Tools.pdb
+D:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\Tools\obj\Debug\ref\Tools.dll
+T:\יד\שבבים\C# מתקדם\אביגיל וחיה\DotNet2025_8467_4533\Tools\obj\Debug\Tools.sourcelink.json

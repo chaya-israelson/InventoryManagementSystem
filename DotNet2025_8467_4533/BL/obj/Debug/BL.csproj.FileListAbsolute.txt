@@ -1,0 +1,63 @@
+T:\יד\שבבים\C# מתקדם\הנחיות הפרויקט\פרויקטים\אביגיל וחיה\DotNet2025_8467_4533\BL\obj\Debug\BL.csproj.AssemblyReference.cache
+T:\יד\שבבים\C# מתקדם\הנחיות הפרויקט\פרויקטים\אביגיל וחיה\DotNet2025_8467_4533\BL\obj\Debug\BL.GeneratedMSBuildEditorConfig.editorconfig
+T:\יד\שבבים\C# מתקדם\הנחיות הפרויקט\פרויקטים\אביגיל וחיה\DotNet2025_8467_4533\BL\obj\Debug\BL.AssemblyInfoInputs.cache
+T:\יד\שבבים\C# מתקדם\הנחיות הפרויקט\פרויקטים\אביגיל וחיה\DotNet2025_8467_4533\BL\obj\Debug\BL.AssemblyInfo.cs
+T:\יד\שבבים\C# מתקדם\הנחיות הפרויקט\פרויקטים\אביגיל וחיה\DotNet2025_8467_4533\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+E:\אביגיל וחיה\DotNet2025_8467_4533\BL\obj\Debug\BL.csproj.AssemblyReference.cache
+E:\אביגיל וחיה\DotNet2025_8467_4533\BL\obj\Debug\BL.GeneratedMSBuildEditorConfig.editorconfig
+E:\אביגיל וחיה\DotNet2025_8467_4533\BL\obj\Debug\BL.AssemblyInfoInputs.cache
+E:\אביגיל וחיה\DotNet2025_8467_4533\BL\obj\Debug\BL.AssemblyInfo.cs
+E:\אביגיל וחיה\DotNet2025_8467_4533\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+F:\אביגיל וחיה\DotNet2025_8467_4533\BL\obj\Debug\BL.csproj.AssemblyReference.cache
+F:\אביגיל וחיה\DotNet2025_8467_4533\BL\obj\Debug\BL.GeneratedMSBuildEditorConfig.editorconfig
+F:\אביגיל וחיה\DotNet2025_8467_4533\BL\obj\Debug\BL.AssemblyInfoInputs.cache
+F:\אביגיל וחיה\DotNet2025_8467_4533\BL\obj\Debug\BL.AssemblyInfo.cs
+F:\אביגיל וחיה\DotNet2025_8467_4533\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+T:\יד\שבבים\C# מתקדם\אביגיל וחיה\DotNet2025_8467_4533\BL\obj\Debug\BL.csproj.AssemblyReference.cache
+T:\יד\שבבים\C# מתקדם\אביגיל וחיה\DotNet2025_8467_4533\BL\obj\Debug\BL.GeneratedMSBuildEditorConfig.editorconfig
+T:\יד\שבבים\C# מתקדם\אביגיל וחיה\DotNet2025_8467_4533\BL\obj\Debug\BL.AssemblyInfoInputs.cache
+T:\יד\שבבים\C# מתקדם\אביגיל וחיה\DotNet2025_8467_4533\BL\obj\Debug\BL.AssemblyInfo.cs
+T:\יד\שבבים\C# מתקדם\אביגיל וחיה\DotNet2025_8467_4533\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+T:\יד\שבבים\C# מתקדם\אביגיל וחיה\DotNet2025_8467_4533\bin\BL.deps.json
+T:\יד\שבבים\C# מתקדם\אביגיל וחיה\DotNet2025_8467_4533\bin\BL.dll
+T:\יד\שבבים\C# מתקדם\אביגיל וחיה\DotNet2025_8467_4533\bin\BL.pdb
+T:\יד\שבבים\C# מתקדם\אביגיל וחיה\DotNet2025_8467_4533\BL\obj\Debug\BL.dll
+T:\יד\שבבים\C# מתקדם\אביגיל וחיה\DotNet2025_8467_4533\BL\obj\Debug\refint\BL.dll
+T:\יד\שבבים\C# מתקדם\אביגיל וחיה\DotNet2025_8467_4533\BL\obj\Debug\BL.pdb
+T:\יד\שבבים\C# מתקדם\אביגיל וחיה\DotNet2025_8467_4533\BL\obj\Debug\ref\BL.dll
+T:\יד\שבבים\C# מתקדם\אביגיל וחיה\DotNet2025_8467_4533\BL\obj\Debug\BL.csproj.Up2Date
+E:\אביגיל וחיה\DotNet2025_8467_4533\bin\BL.deps.json
+E:\אביגיל וחיה\DotNet2025_8467_4533\bin\BL.dll
+E:\אביגיל וחיה\DotNet2025_8467_4533\bin\BL.pdb
+E:\אביגיל וחיה\DotNet2025_8467_4533\BL\obj\Debug\BL.csproj.CopyComplete
+E:\אביגיל וחיה\DotNet2025_8467_4533\BL\obj\Debug\BL.dll
+E:\אביגיל וחיה\DotNet2025_8467_4533\BL\obj\Debug\refint\BL.dll
+E:\אביגיל וחיה\DotNet2025_8467_4533\BL\obj\Debug\BL.pdb
+E:\אביגיל וחיה\DotNet2025_8467_4533\BL\obj\Debug\ref\BL.dll
+E:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\bin\BL.deps.json
+E:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\bin\BL.dll
+E:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\bin\BL.pdb
+E:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\BL\obj\Debug\BL.csproj.AssemblyReference.cache
+E:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\BL\obj\Debug\BL.GeneratedMSBuildEditorConfig.editorconfig
+E:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\BL\obj\Debug\BL.AssemblyInfoInputs.cache
+E:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\BL\obj\Debug\BL.AssemblyInfo.cs
+E:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+E:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\BL\obj\Debug\BL.csproj.CopyComplete
+E:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\BL\obj\Debug\BL.dll
+E:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\BL\obj\Debug\refint\BL.dll
+E:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\BL\obj\Debug\BL.pdb
+E:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\BL\obj\Debug\ref\BL.dll
+D:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\bin\BL.deps.json
+D:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\bin\BL.dll
+D:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\bin\BL.pdb
+D:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\BL\obj\Debug\BL.csproj.AssemblyReference.cache
+D:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\BL\obj\Debug\BL.GeneratedMSBuildEditorConfig.editorconfig
+D:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\BL\obj\Debug\BL.AssemblyInfoInputs.cache
+D:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\BL\obj\Debug\BL.AssemblyInfo.cs
+D:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+D:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\BL\obj\Debug\BL.csproj.CopyComplete
+D:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\BL\obj\Debug\BL.dll
+D:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\BL\obj\Debug\refint\BL.dll
+D:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\BL\obj\Debug\BL.pdb
+D:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\BL\obj\Debug\ref\BL.dll
+T:\יד\שבבים\C# מתקדם\אביגיל וחיה\DotNet2025_8467_4533\BL\obj\Debug\BL.sourcelink.json

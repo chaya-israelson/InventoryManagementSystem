@@ -1,0 +1,53 @@
+T:\יד\שבבים\C# מתקדם\אביגיל וחיה\DotNet2025_8467_4533\DalXml\obj\Debug\DalXml.csproj.AssemblyReference.cache
+T:\יד\שבבים\C# מתקדם\אביגיל וחיה\DotNet2025_8467_4533\DalXml\obj\Debug\DalXml.GeneratedMSBuildEditorConfig.editorconfig
+T:\יד\שבבים\C# מתקדם\אביגיל וחיה\DotNet2025_8467_4533\DalXml\obj\Debug\DalXml.AssemblyInfoInputs.cache
+T:\יד\שבבים\C# מתקדם\אביגיל וחיה\DotNet2025_8467_4533\DalXml\obj\Debug\DalXml.AssemblyInfo.cs
+T:\יד\שבבים\C# מתקדם\אביגיל וחיה\DotNet2025_8467_4533\DalXml\obj\Debug\DalXml.csproj.CoreCompileInputs.cache
+T:\יד\שבבים\C# מתקדם\אביגיל וחיה\DotNet2025_8467_4533\bin\DalXml.deps.json
+T:\יד\שבבים\C# מתקדם\אביגיל וחיה\DotNet2025_8467_4533\bin\DalXml.dll
+T:\יד\שבבים\C# מתקדם\אביגיל וחיה\DotNet2025_8467_4533\bin\DalXml.pdb
+T:\יד\שבבים\C# מתקדם\אביגיל וחיה\DotNet2025_8467_4533\DalXml\obj\Debug\DalXml.csproj.Up2Date
+T:\יד\שבבים\C# מתקדם\אביגיל וחיה\DotNet2025_8467_4533\DalXml\obj\Debug\DalXml.dll
+T:\יד\שבבים\C# מתקדם\אביגיל וחיה\DotNet2025_8467_4533\DalXml\obj\Debug\refint\DalXml.dll
+T:\יד\שבבים\C# מתקדם\אביגיל וחיה\DotNet2025_8467_4533\DalXml\obj\Debug\DalXml.pdb
+T:\יד\שבבים\C# מתקדם\אביגיל וחיה\DotNet2025_8467_4533\DalXml\obj\Debug\ref\DalXml.dll
+E:\אביגיל וחיה\DotNet2025_8467_4533\bin\DalXml.deps.json
+E:\אביגיל וחיה\DotNet2025_8467_4533\bin\DalXml.dll
+E:\אביגיל וחיה\DotNet2025_8467_4533\bin\DalXml.pdb
+E:\אביגיל וחיה\DotNet2025_8467_4533\DalXml\obj\Debug\DalXml.csproj.AssemblyReference.cache
+E:\אביגיל וחיה\DotNet2025_8467_4533\DalXml\obj\Debug\DalXml.GeneratedMSBuildEditorConfig.editorconfig
+E:\אביגיל וחיה\DotNet2025_8467_4533\DalXml\obj\Debug\DalXml.AssemblyInfoInputs.cache
+E:\אביגיל וחיה\DotNet2025_8467_4533\DalXml\obj\Debug\DalXml.AssemblyInfo.cs
+E:\אביגיל וחיה\DotNet2025_8467_4533\DalXml\obj\Debug\DalXml.csproj.CoreCompileInputs.cache
+E:\אביגיל וחיה\DotNet2025_8467_4533\DalXml\obj\Debug\DalXml.dll
+E:\אביגיל וחיה\DotNet2025_8467_4533\DalXml\obj\Debug\refint\DalXml.dll
+E:\אביגיל וחיה\DotNet2025_8467_4533\DalXml\obj\Debug\DalXml.pdb
+E:\אביגיל וחיה\DotNet2025_8467_4533\DalXml\obj\Debug\ref\DalXml.dll
+E:\אביגיל וחיה\DotNet2025_8467_4533\DalXml\obj\Debug\DalXml.csproj.Up2Date
+E:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\bin\DalXml.deps.json
+E:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\bin\DalXml.dll
+E:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\bin\DalXml.pdb
+E:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\DalXml\obj\Debug\DalXml.csproj.AssemblyReference.cache
+E:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\DalXml\obj\Debug\DalXml.GeneratedMSBuildEditorConfig.editorconfig
+E:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\DalXml\obj\Debug\DalXml.AssemblyInfoInputs.cache
+E:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\DalXml\obj\Debug\DalXml.AssemblyInfo.cs
+E:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\DalXml\obj\Debug\DalXml.csproj.CoreCompileInputs.cache
+E:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\DalXml\obj\Debug\DalXml.csproj.CopyComplete
+E:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\DalXml\obj\Debug\DalXml.dll
+E:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\DalXml\obj\Debug\refint\DalXml.dll
+E:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\DalXml\obj\Debug\DalXml.pdb
+E:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\DalXml\obj\Debug\ref\DalXml.dll
+D:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\bin\DalXml.deps.json
+D:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\bin\DalXml.dll
+D:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\bin\DalXml.pdb
+D:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\DalXml\obj\Debug\DalXml.csproj.AssemblyReference.cache
+D:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\DalXml\obj\Debug\DalXml.GeneratedMSBuildEditorConfig.editorconfig
+D:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\DalXml\obj\Debug\DalXml.AssemblyInfoInputs.cache
+D:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\DalXml\obj\Debug\DalXml.AssemblyInfo.cs
+D:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\DalXml\obj\Debug\DalXml.csproj.CoreCompileInputs.cache
+D:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\DalXml\obj\Debug\DalXml.csproj.CopyComplete
+D:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\DalXml\obj\Debug\DalXml.dll
+D:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\DalXml\obj\Debug\refint\DalXml.dll
+D:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\DalXml\obj\Debug\DalXml.pdb
+D:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\DalXml\obj\Debug\ref\DalXml.dll
+T:\יד\שבבים\C# מתקדם\אביגיל וחיה\DotNet2025_8467_4533\DalXml\obj\Debug\DalXml.sourcelink.json

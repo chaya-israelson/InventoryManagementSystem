@@ -1,0 +1,80 @@
+T:\יד\שבבים\C# מתקדם\הנחיות הפרויקט\פרויקטים\אביגיל וחיה\DotNet2025_8467_4533\bin\DelTest.exe
+T:\יד\שבבים\C# מתקדם\הנחיות הפרויקט\פרויקטים\אביגיל וחיה\DotNet2025_8467_4533\bin\DelTest.deps.json
+T:\יד\שבבים\C# מתקדם\הנחיות הפרויקט\פרויקטים\אביגיל וחיה\DotNet2025_8467_4533\bin\DelTest.runtimeconfig.json
+T:\יד\שבבים\C# מתקדם\הנחיות הפרויקט\פרויקטים\אביגיל וחיה\DotNet2025_8467_4533\bin\DelTest.dll
+T:\יד\שבבים\C# מתקדם\הנחיות הפרויקט\פרויקטים\אביגיל וחיה\DotNet2025_8467_4533\bin\DelTest.pdb
+T:\יד\שבבים\C# מתקדם\הנחיות הפרויקט\פרויקטים\אביגיל וחיה\DotNet2025_8467_4533\DelTest\obj\Debug\DelTest.csproj.AssemblyReference.cache
+T:\יד\שבבים\C# מתקדם\הנחיות הפרויקט\פרויקטים\אביגיל וחיה\DotNet2025_8467_4533\DelTest\obj\Debug\DelTest.GeneratedMSBuildEditorConfig.editorconfig
+T:\יד\שבבים\C# מתקדם\הנחיות הפרויקט\פרויקטים\אביגיל וחיה\DotNet2025_8467_4533\DelTest\obj\Debug\DelTest.AssemblyInfoInputs.cache
+T:\יד\שבבים\C# מתקדם\הנחיות הפרויקט\פרויקטים\אביגיל וחיה\DotNet2025_8467_4533\DelTest\obj\Debug\DelTest.AssemblyInfo.cs
+T:\יד\שבבים\C# מתקדם\הנחיות הפרויקט\פרויקטים\אביגיל וחיה\DotNet2025_8467_4533\DelTest\obj\Debug\DelTest.csproj.CoreCompileInputs.cache
+T:\יד\שבבים\C# מתקדם\הנחיות הפרויקט\פרויקטים\אביגיל וחיה\DotNet2025_8467_4533\DelTest\obj\Debug\DelTest.csproj.Up2Date
+T:\יד\שבבים\C# מתקדם\הנחיות הפרויקט\פרויקטים\אביגיל וחיה\DotNet2025_8467_4533\DelTest\obj\Debug\DelTest.dll
+T:\יד\שבבים\C# מתקדם\הנחיות הפרויקט\פרויקטים\אביגיל וחיה\DotNet2025_8467_4533\DelTest\obj\Debug\refint\DelTest.dll
+T:\יד\שבבים\C# מתקדם\הנחיות הפרויקט\פרויקטים\אביגיל וחיה\DotNet2025_8467_4533\DelTest\obj\Debug\DelTest.pdb
+T:\יד\שבבים\C# מתקדם\הנחיות הפרויקט\פרויקטים\אביגיל וחיה\DotNet2025_8467_4533\DelTest\obj\Debug\DelTest.genruntimeconfig.cache
+T:\יד\שבבים\C# מתקדם\הנחיות הפרויקט\פרויקטים\אביגיל וחיה\DotNet2025_8467_4533\DelTest\obj\Debug\ref\DelTest.dll
+D:\שנה ב\C# מתקדם\הפרויקט\אביגיל וחיה\DotNet2025_8467_4533\bin\DelTest.exe
+D:\שנה ב\C# מתקדם\הפרויקט\אביגיל וחיה\DotNet2025_8467_4533\bin\DelTest.deps.json
+D:\שנה ב\C# מתקדם\הפרויקט\אביגיל וחיה\DotNet2025_8467_4533\bin\DelTest.runtimeconfig.json
+D:\שנה ב\C# מתקדם\הפרויקט\אביגיל וחיה\DotNet2025_8467_4533\bin\DelTest.dll
+D:\שנה ב\C# מתקדם\הפרויקט\אביגיל וחיה\DotNet2025_8467_4533\bin\DelTest.pdb
+D:\שנה ב\C# מתקדם\הפרויקט\אביגיל וחיה\DotNet2025_8467_4533\DelTest\obj\Debug\DelTest.csproj.AssemblyReference.cache
+D:\שנה ב\C# מתקדם\הפרויקט\אביגיל וחיה\DotNet2025_8467_4533\DelTest\obj\Debug\DelTest.GeneratedMSBuildEditorConfig.editorconfig
+D:\שנה ב\C# מתקדם\הפרויקט\אביגיל וחיה\DotNet2025_8467_4533\DelTest\obj\Debug\DelTest.AssemblyInfoInputs.cache
+D:\שנה ב\C# מתקדם\הפרויקט\אביגיל וחיה\DotNet2025_8467_4533\DelTest\obj\Debug\DelTest.AssemblyInfo.cs
+D:\שנה ב\C# מתקדם\הפרויקט\אביגיל וחיה\DotNet2025_8467_4533\DelTest\obj\Debug\DelTest.csproj.CoreCompileInputs.cache
+D:\שנה ב\C# מתקדם\הפרויקט\אביגיל וחיה\DotNet2025_8467_4533\DelTest\obj\Debug\DelTest.csproj.CopyComplete
+D:\שנה ב\C# מתקדם\הפרויקט\אביגיל וחיה\DotNet2025_8467_4533\DelTest\obj\Debug\DelTest.dll
+D:\שנה ב\C# מתקדם\הפרויקט\אביגיל וחיה\DotNet2025_8467_4533\DelTest\obj\Debug\refint\DelTest.dll
+D:\שנה ב\C# מתקדם\הפרויקט\אביגיל וחיה\DotNet2025_8467_4533\DelTest\obj\Debug\DelTest.pdb
+D:\שנה ב\C# מתקדם\הפרויקט\אביגיל וחיה\DotNet2025_8467_4533\DelTest\obj\Debug\DelTest.genruntimeconfig.cache
+D:\שנה ב\C# מתקדם\הפרויקט\אביגיל וחיה\DotNet2025_8467_4533\DelTest\obj\Debug\ref\DelTest.dll
+C:\Users\User\Desktop\פרויקט C#\DotNet2025_8467_4533\bin\DelTest.exe
+C:\Users\User\Desktop\פרויקט C#\DotNet2025_8467_4533\bin\DelTest.deps.json
+C:\Users\User\Desktop\פרויקט C#\DotNet2025_8467_4533\bin\DelTest.runtimeconfig.json
+C:\Users\User\Desktop\פרויקט C#\DotNet2025_8467_4533\bin\DelTest.dll
+C:\Users\User\Desktop\פרויקט C#\DotNet2025_8467_4533\bin\DelTest.pdb
+C:\Users\User\Desktop\פרויקט C#\DotNet2025_8467_4533\DelTest\obj\Debug\DelTest.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\פרויקט C#\DotNet2025_8467_4533\DelTest\obj\Debug\DelTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\פרויקט C#\DotNet2025_8467_4533\DelTest\obj\Debug\DelTest.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\פרויקט C#\DotNet2025_8467_4533\DelTest\obj\Debug\DelTest.AssemblyInfo.cs
+C:\Users\User\Desktop\פרויקט C#\DotNet2025_8467_4533\DelTest\obj\Debug\DelTest.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\פרויקט C#\DotNet2025_8467_4533\DelTest\obj\Debug\DelTest.csproj.CopyComplete
+C:\Users\User\Desktop\פרויקט C#\DotNet2025_8467_4533\DelTest\obj\Debug\DelTest.dll
+C:\Users\User\Desktop\פרויקט C#\DotNet2025_8467_4533\DelTest\obj\Debug\refint\DelTest.dll
+C:\Users\User\Desktop\פרויקט C#\DotNet2025_8467_4533\DelTest\obj\Debug\DelTest.pdb
+C:\Users\User\Desktop\פרויקט C#\DotNet2025_8467_4533\DelTest\obj\Debug\DelTest.genruntimeconfig.cache
+C:\Users\User\Desktop\פרויקט C#\DotNet2025_8467_4533\DelTest\obj\Debug\ref\DelTest.dll
+T:\יד\שבבים\C# מתקדם\אביגיל וחיה\DotNet2025_8467_4533\bin\DelTest.exe
+T:\יד\שבבים\C# מתקדם\אביגיל וחיה\DotNet2025_8467_4533\bin\DelTest.deps.json
+T:\יד\שבבים\C# מתקדם\אביגיל וחיה\DotNet2025_8467_4533\bin\DelTest.runtimeconfig.json
+T:\יד\שבבים\C# מתקדם\אביגיל וחיה\DotNet2025_8467_4533\bin\DelTest.dll
+T:\יד\שבבים\C# מתקדם\אביגיל וחיה\DotNet2025_8467_4533\bin\DelTest.pdb
+T:\יד\שבבים\C# מתקדם\אביגיל וחיה\DotNet2025_8467_4533\DelTest\obj\Debug\DelTest.csproj.AssemblyReference.cache
+T:\יד\שבבים\C# מתקדם\אביגיל וחיה\DotNet2025_8467_4533\DelTest\obj\Debug\DelTest.GeneratedMSBuildEditorConfig.editorconfig
+T:\יד\שבבים\C# מתקדם\אביגיל וחיה\DotNet2025_8467_4533\DelTest\obj\Debug\DelTest.AssemblyInfoInputs.cache
+T:\יד\שבבים\C# מתקדם\אביגיל וחיה\DotNet2025_8467_4533\DelTest\obj\Debug\DelTest.AssemblyInfo.cs
+T:\יד\שבבים\C# מתקדם\אביגיל וחיה\DotNet2025_8467_4533\DelTest\obj\Debug\DelTest.csproj.CoreCompileInputs.cache
+T:\יד\שבבים\C# מתקדם\אביגיל וחיה\DotNet2025_8467_4533\DelTest\obj\Debug\DelTest.dll
+T:\יד\שבבים\C# מתקדם\אביגיל וחיה\DotNet2025_8467_4533\DelTest\obj\Debug\refint\DelTest.dll
+T:\יד\שבבים\C# מתקדם\אביגיל וחיה\DotNet2025_8467_4533\DelTest\obj\Debug\DelTest.pdb
+T:\יד\שבבים\C# מתקדם\אביגיל וחיה\DotNet2025_8467_4533\DelTest\obj\Debug\DelTest.genruntimeconfig.cache
+T:\יד\שבבים\C# מתקדם\אביגיל וחיה\DotNet2025_8467_4533\DelTest\obj\Debug\ref\DelTest.dll
+T:\יד\שבבים\C# מתקדם\אביגיל וחיה\DotNet2025_8467_4533\DelTest\obj\Debug\DelTest.csproj.Up2Date
+E:\אביגיל וחיה\DotNet2025_8467_4533\bin\DelTest.exe
+E:\אביגיל וחיה\DotNet2025_8467_4533\bin\DelTest.deps.json
+E:\אביגיל וחיה\DotNet2025_8467_4533\bin\DelTest.runtimeconfig.json
+E:\אביגיל וחיה\DotNet2025_8467_4533\bin\DelTest.dll
+E:\אביגיל וחיה\DotNet2025_8467_4533\bin\DelTest.pdb
+E:\אביגיל וחיה\DotNet2025_8467_4533\DelTest\obj\Debug\DelTest.csproj.AssemblyReference.cache
+E:\אביגיל וחיה\DotNet2025_8467_4533\DelTest\obj\Debug\DelTest.GeneratedMSBuildEditorConfig.editorconfig
+E:\אביגיל וחיה\DotNet2025_8467_4533\DelTest\obj\Debug\DelTest.AssemblyInfoInputs.cache
+E:\אביגיל וחיה\DotNet2025_8467_4533\DelTest\obj\Debug\DelTest.AssemblyInfo.cs
+E:\אביגיל וחיה\DotNet2025_8467_4533\DelTest\obj\Debug\DelTest.csproj.CoreCompileInputs.cache
+E:\אביגיל וחיה\DotNet2025_8467_4533\DelTest\obj\Debug\DelTest.dll
+E:\אביגיל וחיה\DotNet2025_8467_4533\DelTest\obj\Debug\refint\DelTest.dll
+E:\אביגיל וחיה\DotNet2025_8467_4533\DelTest\obj\Debug\DelTest.pdb
+E:\אביגיל וחיה\DotNet2025_8467_4533\DelTest\obj\Debug\DelTest.genruntimeconfig.cache
+E:\אביגיל וחיה\DotNet2025_8467_4533\DelTest\obj\Debug\ref\DelTest.dll
+E:\אביגיל וחיה\DotNet2025_8467_4533\DelTest\obj\Debug\DelTest.csproj.Up2Date
