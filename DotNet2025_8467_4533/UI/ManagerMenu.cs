@@ -1,7 +1,4 @@
-﻿
-
-namespace UI;
-
+﻿namespace UI;
 public partial class ManagerMenu : Form
 {
     public ManagerMenu()
@@ -11,11 +8,7 @@ public partial class ManagerMenu : Form
 
     private void clients_Click(object sender, EventArgs e)
     {
-        Options options = new Options();
-        this.Hide();
-        options.FormClosed += options_FormClosed;
-        options.Show();
-        options.Text = "לקוחות";
+       
     }
 
     private void options_FormClosed(object? sender, FormClosedEventArgs e)
@@ -25,7 +18,7 @@ public partial class ManagerMenu : Form
 
     private void products_Click(object sender, EventArgs e)
     {
-        Options options = new Options();
+        ProductShow options = new ProductShow();
         this.Hide();
         options.FormClosed += options_FormClosed;
         options.Show();
@@ -34,11 +27,7 @@ public partial class ManagerMenu : Form
 
     private void sales_Click(object sender, EventArgs e)
     {
-        Options options = new Options();
-        this.Hide();
-        options.FormClosed += options_FormClosed;
-        options.Show();
-        options.Text = "מבצעים";
+      
 
 
     }
