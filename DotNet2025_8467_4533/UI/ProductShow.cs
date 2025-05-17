@@ -71,7 +71,7 @@ public partial class ProductShow : Form
 
     }
 
-   
+
 
     private void deleteProduct_Click(object sender, EventArgs e)
     {

@@ -124,11 +124,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\אביגיל וחיה\\אביגיל וחיה\\DotNet2025_8467_4533\\BlTest\\BlTest.csproj",
+      "projectUniqueName": "C:\\Users\\user1\\Documents\\חיה\\שנה ב\\אביגיל וחיה\\DotNet2025_8467_4533\\BlTest\\BlTest.csproj",
       "projectName": "BlTest",
-      "projectPath": "D:\\אביגיל וחיה\\אביגיל וחיה\\DotNet2025_8467_4533\\BlTest\\BlTest.csproj",
+      "projectPath": "C:\\Users\\user1\\Documents\\חיה\\שנה ב\\אביגיל וחיה\\DotNet2025_8467_4533\\BlTest\\BlTest.csproj",
       "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
-      "outputPath": "D:\\אביגיל וחיה\\אביגיל וחיה\\DotNet2025_8467_4533\\BlTest\\obj\\",
+      "outputPath": "C:\\Users\\user1\\Documents\\חיה\\שנה ב\\אביגיל וחיה\\DotNet2025_8467_4533\\BlTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user1\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -145,11 +145,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\אביגיל וחיה\\אביגיל וחיה\\DotNet2025_8467_4533\\BL\\BL.csproj": {
-              "projectPath": "D:\\אביגיל וחיה\\אביגיל וחיה\\DotNet2025_8467_4533\\BL\\BL.csproj"
+            "C:\\Users\\user1\\Documents\\חיה\\שנה ב\\אביגיל וחיה\\DotNet2025_8467_4533\\BL\\BL.csproj": {
+              "projectPath": "C:\\Users\\user1\\Documents\\חיה\\שנה ב\\אביגיל וחיה\\DotNet2025_8467_4533\\BL\\BL.csproj"
             },
-            "D:\\אביגיל וחיה\\אביגיל וחיה\\DotNet2025_8467_4533\\DelTest\\DelTest.csproj": {
-              "projectPath": "D:\\אביגיל וחיה\\אביגיל וחיה\\DotNet2025_8467_4533\\DelTest\\DelTest.csproj"
+            "C:\\Users\\user1\\Documents\\חיה\\שנה ב\\אביגיל וחיה\\DotNet2025_8467_4533\\DelTest\\DelTest.csproj": {
+              "projectPath": "C:\\Users\\user1\\Documents\\חיה\\שנה ב\\אביגיל וחיה\\DotNet2025_8467_4533\\DelTest\\DelTest.csproj"
             }
           }
         }

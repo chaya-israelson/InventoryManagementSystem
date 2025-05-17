@@ -67,11 +67,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\אביגיל וחיה\\אביגיל וחיה\\DotNet2025_8467_4533\\DalList\\DalList.csproj",
+      "projectUniqueName": "C:\\Users\\user1\\Documents\\חיה\\שנה ב\\אביגיל וחיה\\DotNet2025_8467_4533\\DalList\\DalList.csproj",
       "projectName": "DalList",
-      "projectPath": "D:\\אביגיל וחיה\\אביגיל וחיה\\DotNet2025_8467_4533\\DalList\\DalList.csproj",
+      "projectPath": "C:\\Users\\user1\\Documents\\חיה\\שנה ב\\אביגיל וחיה\\DotNet2025_8467_4533\\DalList\\DalList.csproj",
       "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
-      "outputPath": "D:\\אביגיל וחיה\\אביגיל וחיה\\DotNet2025_8467_4533\\DalList\\obj\\",
+      "outputPath": "C:\\Users\\user1\\Documents\\חיה\\שנה ב\\אביגיל וחיה\\DotNet2025_8467_4533\\DalList\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user1\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -88,14 +88,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\אביגיל וחיה\\אביגיל וחיה\\DotNet2025_8467_4533\\DalFacade\\DalFacade.csproj": {
-              "projectPath": "D:\\אביגיל וחיה\\אביגיל וחיה\\DotNet2025_8467_4533\\DalFacade\\DalFacade.csproj"
+            "C:\\Users\\user1\\Documents\\חיה\\שנה ב\\אביגיל וחיה\\DotNet2025_8467_4533\\DalFacade\\DalFacade.csproj": {
+              "projectPath": "C:\\Users\\user1\\Documents\\חיה\\שנה ב\\אביגיל וחיה\\DotNet2025_8467_4533\\DalFacade\\DalFacade.csproj"
             },
-            "D:\\אביגיל וחיה\\אביגיל וחיה\\DotNet2025_8467_4533\\DalXml\\DalXml.csproj": {
-              "projectPath": "D:\\אביגיל וחיה\\אביגיל וחיה\\DotNet2025_8467_4533\\DalXml\\DalXml.csproj"
+            "C:\\Users\\user1\\Documents\\חיה\\שנה ב\\אביגיל וחיה\\DotNet2025_8467_4533\\DalXml\\DalXml.csproj": {
+              "projectPath": "C:\\Users\\user1\\Documents\\חיה\\שנה ב\\אביגיל וחיה\\DotNet2025_8467_4533\\DalXml\\DalXml.csproj"
             },
-            "D:\\אביגיל וחיה\\אביגיל וחיה\\DotNet2025_8467_4533\\Tools\\Tools.csproj": {
-              "projectPath": "D:\\אביגיל וחיה\\אביגיל וחיה\\DotNet2025_8467_4533\\Tools\\Tools.csproj"
+            "C:\\Users\\user1\\Documents\\חיה\\שנה ב\\אביגיל וחיה\\DotNet2025_8467_4533\\Tools\\Tools.csproj": {
+              "projectPath": "C:\\Users\\user1\\Documents\\חיה\\שנה ב\\אביגיל וחיה\\DotNet2025_8467_4533\\Tools\\Tools.csproj"
             }
           }
         }

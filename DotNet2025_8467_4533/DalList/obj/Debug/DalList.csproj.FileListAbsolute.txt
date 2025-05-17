@@ -103,3 +103,16 @@ D:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\DalList\obj\
 D:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\DalList\obj\Debug\DalList.pdb
 D:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\DalList\obj\Debug\ref\DalList.dll
 T:\יד\שבבים\C# מתקדם\אביגיל וחיה\DotNet2025_8467_4533\DalList\obj\Debug\DalList.sourcelink.json
+C:\Users\user1\Documents\חיה\שנה ב\אביגיל וחיה\DotNet2025_8467_4533\bin\DalList.deps.json
+C:\Users\user1\Documents\חיה\שנה ב\אביגיל וחיה\DotNet2025_8467_4533\bin\DalList.dll
+C:\Users\user1\Documents\חיה\שנה ב\אביגיל וחיה\DotNet2025_8467_4533\bin\DalList.pdb
+C:\Users\user1\Documents\חיה\שנה ב\אביגיל וחיה\DotNet2025_8467_4533\DalList\obj\Debug\DalList.csproj.AssemblyReference.cache
+C:\Users\user1\Documents\חיה\שנה ב\אביגיל וחיה\DotNet2025_8467_4533\DalList\obj\Debug\DalList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\Documents\חיה\שנה ב\אביגיל וחיה\DotNet2025_8467_4533\DalList\obj\Debug\DalList.AssemblyInfoInputs.cache
+C:\Users\user1\Documents\חיה\שנה ב\אביגיל וחיה\DotNet2025_8467_4533\DalList\obj\Debug\DalList.AssemblyInfo.cs
+C:\Users\user1\Documents\חיה\שנה ב\אביגיל וחיה\DotNet2025_8467_4533\DalList\obj\Debug\DalList.csproj.CoreCompileInputs.cache
+C:\Users\user1\Documents\חיה\שנה ב\אביגיל וחיה\DotNet2025_8467_4533\DalList\obj\Debug\DalList.csproj.CopyComplete
+C:\Users\user1\Documents\חיה\שנה ב\אביגיל וחיה\DotNet2025_8467_4533\DalList\obj\Debug\DalList.dll
+C:\Users\user1\Documents\חיה\שנה ב\אביגיל וחיה\DotNet2025_8467_4533\DalList\obj\Debug\refint\DalList.dll
+C:\Users\user1\Documents\חיה\שנה ב\אביגיל וחיה\DotNet2025_8467_4533\DalList\obj\Debug\DalList.pdb
+C:\Users\user1\Documents\חיה\שנה ב\אביגיל וחיה\DotNet2025_8467_4533\DalList\obj\Debug\ref\DalList.dll

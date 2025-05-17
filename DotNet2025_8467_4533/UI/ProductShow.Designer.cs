@@ -379,7 +379,7 @@
             panelAddOrUpdateProduct.Controls.Add(addCategory);
             panelAddOrUpdateProduct.Controls.Add(addPrice);
             panelAddOrUpdateProduct.Controls.Add(addNameProduct);
-            panelAddOrUpdateProduct.Location = new Point(189, 41);
+            panelAddOrUpdateProduct.Location = new Point(139, 41);
             panelAddOrUpdateProduct.Margin = new Padding(3, 4, 3, 4);
             panelAddOrUpdateProduct.Name = "panelAddOrUpdateProduct";
             panelAddOrUpdateProduct.Size = new Size(370, 493);
@@ -431,7 +431,7 @@
             textBox1.Size = new Size(206, 27);
             textBox1.TabIndex = 0;
             // 
-            // Options
+            // ProductShow
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -447,8 +447,8 @@
             Controls.Add(AllProducts);
             Controls.Add(ShowProduct);
             Margin = new Padding(3, 4, 3, 4);
-            Name = "Options";
-            Text = "Options";
+            Name = "ProductShow";
+            Text = "מוצרים";
             ((System.ComponentModel.ISupportInitialize)clientBindingSource).EndInit();
             panelShowProduct.ResumeLayout(false);
             panelShowProduct.PerformLayout();
