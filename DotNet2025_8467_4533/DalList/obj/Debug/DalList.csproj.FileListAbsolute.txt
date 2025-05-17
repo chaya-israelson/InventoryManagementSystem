@@ -103,3 +103,16 @@ D:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\DalList\obj\
 D:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\DalList\obj\Debug\DalList.pdb
 D:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\DalList\obj\Debug\ref\DalList.dll
 T:\יד\שבבים\C# מתקדם\אביגיל וחיה\DotNet2025_8467_4533\DalList\obj\Debug\DalList.sourcelink.json
+C:\Practicum_preparationAL\C#.net\c-.net\DotNet2025_8467_4533\bin\DalList.deps.json
+C:\Practicum_preparationAL\C#.net\c-.net\DotNet2025_8467_4533\bin\DalList.dll
+C:\Practicum_preparationAL\C#.net\c-.net\DotNet2025_8467_4533\bin\DalList.pdb
+C:\Practicum_preparationAL\C#.net\c-.net\DotNet2025_8467_4533\DalList\obj\Debug\DalList.csproj.AssemblyReference.cache
+C:\Practicum_preparationAL\C#.net\c-.net\DotNet2025_8467_4533\DalList\obj\Debug\DalList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Practicum_preparationAL\C#.net\c-.net\DotNet2025_8467_4533\DalList\obj\Debug\DalList.AssemblyInfoInputs.cache
+C:\Practicum_preparationAL\C#.net\c-.net\DotNet2025_8467_4533\DalList\obj\Debug\DalList.AssemblyInfo.cs
+C:\Practicum_preparationAL\C#.net\c-.net\DotNet2025_8467_4533\DalList\obj\Debug\DalList.csproj.CoreCompileInputs.cache
+C:\Practicum_preparationAL\C#.net\c-.net\DotNet2025_8467_4533\DalList\obj\Debug\DalList.csproj.CopyComplete
+C:\Practicum_preparationAL\C#.net\c-.net\DotNet2025_8467_4533\DalList\obj\Debug\DalList.dll
+C:\Practicum_preparationAL\C#.net\c-.net\DotNet2025_8467_4533\DalList\obj\Debug\refint\DalList.dll
+C:\Practicum_preparationAL\C#.net\c-.net\DotNet2025_8467_4533\DalList\obj\Debug\DalList.pdb
+C:\Practicum_preparationAL\C#.net\c-.net\DotNet2025_8467_4533\DalList\obj\Debug\ref\DalList.dll
