@@ -52,10 +52,6 @@
             showIdSale = new TextBox();
             panelAllProduct = new Panel();
             dataGridViewAllProduct = new DataGridView();
-            columIdProduct = new DataGridViewTextBoxColumn();
-            columNameProduct = new DataGridViewTextBoxColumn();
-            columPrice = new DataGridViewTextBoxColumn();
-            columnCategory = new DataGridViewTextBoxColumn();
             updetSale = new Button();
             panelSaleDetails = new Panel();
             label13 = new Label();
@@ -92,7 +88,7 @@
             panelDeleteSale.Controls.Add(OK);
             panelDeleteSale.Controls.Add(label1);
             panelDeleteSale.Controls.Add(textBox1);
-            panelDeleteSale.Location = new Point(165, 196);
+            panelDeleteSale.Location = new Point(163, 205);
             panelDeleteSale.Margin = new Padding(3, 4, 3, 4);
             panelDeleteSale.Name = "panelDeleteSale";
             panelDeleteSale.Size = new Size(603, 133);
@@ -101,7 +97,7 @@
             // 
             // cancel
             // 
-            cancel.Location = new Point(220, 87);
+            cancel.Location = new Point(268, 87);
             cancel.Name = "cancel";
             cancel.Size = new Size(70, 34);
             cancel.TabIndex = 3;
@@ -110,7 +106,7 @@
             // 
             // OK
             // 
-            OK.Location = new Point(334, 87);
+            OK.Location = new Point(378, 87);
             OK.Name = "OK";
             OK.Size = new Size(70, 34);
             OK.TabIndex = 2;
@@ -119,7 +115,7 @@
             // 
             // label1
             // 
-            label1.Location = new Point(389, 48);
+            label1.Location = new Point(409, 48);
             label1.Name = "label1";
             label1.Size = new Size(109, 27);
             label1.TabIndex = 1;
@@ -127,9 +123,9 @@
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(154, 48);
+            textBox1.Location = new Point(223, 48);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(206, 27);
+            textBox1.Size = new Size(157, 27);
             textBox1.TabIndex = 0;
             // 
             // panelAddOrUpdateSale
@@ -235,6 +231,7 @@
             addOrUpdate.TabIndex = 5;
             addOrUpdate.Text = "הוסף";
             addOrUpdate.UseVisualStyleBackColor = true;
+            addOrUpdate.Click += addOrUpdate_Click;
             // 
             // addAllClient
             // 
@@ -265,7 +262,7 @@
             panelShowSale.BackColor = Color.Transparent;
             panelShowSale.Controls.Add(idSale);
             panelShowSale.Controls.Add(showIdSale);
-            panelShowSale.Location = new Point(207, 72);
+            panelShowSale.Location = new Point(195, 72);
             panelShowSale.Margin = new Padding(3, 4, 3, 4);
             panelShowSale.Name = "panelShowSale";
             panelShowSale.Size = new Size(572, 100);
@@ -303,7 +300,6 @@
             // 
             dataGridViewAllProduct.BackgroundColor = SystemColors.ButtonHighlight;
             dataGridViewAllProduct.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewAllProduct.Columns.AddRange(new DataGridViewColumn[] { columIdProduct, columNameProduct, columPrice, columnCategory });
             dataGridViewAllProduct.Location = new Point(8, 52);
             dataGridViewAllProduct.Margin = new Padding(3, 4, 3, 4);
             dataGridViewAllProduct.Name = "dataGridViewAllProduct";
@@ -311,34 +307,6 @@
             dataGridViewAllProduct.RowTemplate.Height = 25;
             dataGridViewAllProduct.Size = new Size(526, 419);
             dataGridViewAllProduct.TabIndex = 0;
-            // 
-            // columIdProduct
-            // 
-            columIdProduct.HeaderText = "קוד מוצר";
-            columIdProduct.MinimumWidth = 6;
-            columIdProduct.Name = "columIdProduct";
-            columIdProduct.Width = 125;
-            // 
-            // columNameProduct
-            // 
-            columNameProduct.HeaderText = "שם מוצר";
-            columNameProduct.MinimumWidth = 6;
-            columNameProduct.Name = "columNameProduct";
-            columNameProduct.Width = 125;
-            // 
-            // columPrice
-            // 
-            columPrice.HeaderText = "מחיר";
-            columPrice.MinimumWidth = 6;
-            columPrice.Name = "columPrice";
-            columPrice.Width = 125;
-            // 
-            // columnCategory
-            // 
-            columnCategory.HeaderText = "קטגוריה";
-            columnCategory.MinimumWidth = 6;
-            columnCategory.Name = "columnCategory";
-            columnCategory.Width = 125;
             // 
             // updetSale
             // 
@@ -567,10 +535,6 @@
         private Label addIdProduct;
         private Panel panelAllProduct;
         private DataGridView dataGridViewAllProduct;
-        private DataGridViewTextBoxColumn columIdProduct;
-        private DataGridViewTextBoxColumn columNameProduct;
-        private DataGridViewTextBoxColumn columPrice;
-        private DataGridViewTextBoxColumn columnCategory;
         private Button updetSale;
         private Panel panelSaleDetails;
         private Label label8;

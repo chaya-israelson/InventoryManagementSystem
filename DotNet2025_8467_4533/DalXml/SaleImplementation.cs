@@ -10,10 +10,14 @@ internal class SaleImplementation : ISale
     XmlSerializer xmlSerializer = new XmlSerializer(typeof(List<Sale>));
     public List<Sale> LoadList()
     {
+        List<Sale> sales;
         using (StreamReader sr = new StreamReader(filePath))
         {
-            return (List<Sale>)xmlSerializer.Deserialize(sr);
+            sales= xmlSerializer.Deserialize(sr) as List<Sale>;
         }
+        if(sales!=null)
+            return sales;
+        throw new Exception();
     }
     public int Create(Sale item)
     {
@@ -52,7 +56,18 @@ internal class SaleImplementation : ISale
 
     public List<Sale?> ReadAll(Func<Sale, bool>? filter = null)
     {
-        return LoadList().Where(filter).ToList();
+        
+          List<Sale?> sales=LoadList();
+          if(filter!= null){
+               if(sales==null)
+                   throw new Exception();
+              else
+                   sales=sales.Where(filter).ToList();
+          }
+          if(sales==null)
+            throw new Exception();
+          return sales;
+         
     }
 
     public void Update(Sale item)

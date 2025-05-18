@@ -1,8 +1,12 @@
 ﻿
+using BlApi;
+using BO;
+
 namespace UI
 {
     public partial class SaleShow : Form
     {
+        static readonly IBl s_bl = Factory.Get();
         public SaleShow()
         {
             InitializeComponent();
@@ -49,6 +53,7 @@ namespace UI
             panelSaleDetails.Visible = false;
             panelShowSale.Visible = false;
             panelAllProduct.Visible = true;
+            dataGridViewAllProduct.DataSource = s_bl.sale.ReadAll();
 
         }
 
@@ -85,6 +90,33 @@ namespace UI
         {
             if (showIdSale.Text == "")
                 panelSaleDetails.Visible = false;
+        }
+
+        private void addOrUpdate_Click(object sender, EventArgs e)
+        {
+            if (addOrUpdate.Text == "הוסף")
+            {
+                try
+                {
+                    if (insertAddIdProduct.Text == "" || insertAddCount.Value == 0 || insertTotalPrice.Text == "")
+                        MessageBox.Show("Error! please fill all the field!");
+                    else
+                    {
+                        /*                        Sale sale = new Sale(insertAddIdProduct.Text, insertAddIdProduct.Text, insertTotalPrice.Text, insertTotalPric.Text, insertAddAllClient.Checked, insertAddStartDate.Value, insertAddEndDate.Value);
+                        */
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
+
+
+            }
+            if (addOrUpdate.Text == "עדכן")
+            {
+
+            }
         }
     }
 }
