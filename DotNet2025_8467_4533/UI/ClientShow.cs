@@ -66,8 +66,8 @@ public partial class ClientShow : Form
         panelClientDetails.Visible = false;
         panelShowClient.Visible = false;
         panelAllClient.Visible = false;
-       // addId.Visible = false;
-       // insertAddId.Visible = false;
+        // addId.Visible = false;
+        // insertAddId.Visible = false;
         addOrUpdate.Text = "עדכון";
         panelDeleteClient.Visible = false;
         Client client = new Client(int.Parse(insertAddId.Text), insertAddNameClient.Text, insertAddAddres.Text, insertAddPhon.Text);

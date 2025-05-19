@@ -44,10 +44,6 @@
             addAddres = new Label();
             addNameClient = new Label();
             dataGridViewAllClient = new DataGridView();
-            columIdClient = new DataGridViewTextBoxColumn();
-            columNameClient = new DataGridViewTextBoxColumn();
-            columAddres = new DataGridViewTextBoxColumn();
-            ColumnPhon = new DataGridViewTextBoxColumn();
             panelAllClient = new Panel();
             updetClient = new Button();
             panelClientDetails = new Panel();
@@ -210,7 +206,6 @@
             // dataGridViewAllClient
             // 
             dataGridViewAllClient.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewAllClient.Columns.AddRange(new DataGridViewColumn[] { columIdClient, columNameClient, columAddres, ColumnPhon });
             dataGridViewAllClient.Location = new Point(0, 3);
             dataGridViewAllClient.Name = "dataGridViewAllClient";
             dataGridViewAllClient.RowHeadersWidth = 51;
@@ -218,32 +213,6 @@
             dataGridViewAllClient.Size = new Size(475, 320);
             dataGridViewAllClient.TabIndex = 0;
             dataGridViewAllClient.CellContentClick += dataGridViewAllProduct_CellContentClick;
-            // 
-            // columIdClient
-            // 
-            columIdClient.HeaderText = "ת.ז.";
-            columIdClient.MinimumWidth = 6;
-            columIdClient.Name = "columIdClient";
-            columIdClient.Width = 125;
-            // 
-            // columNameClient
-            // 
-            columNameClient.HeaderText = "שם לקוח";
-            columNameClient.MinimumWidth = 6;
-            columNameClient.Name = "columNameClient";
-            columNameClient.Width = 125;
-            // 
-            // columAddres
-            // 
-            columAddres.HeaderText = "כתובת";
-            columAddres.MinimumWidth = 6;
-            columAddres.Name = "columAddres";
-            columAddres.Width = 125;
-            // 
-            // ColumnPhon
-            // 
-            ColumnPhon.HeaderText = "טלפון";
-            ColumnPhon.Name = "ColumnPhon";
             // 
             // panelAllClient
             // 
@@ -458,10 +427,6 @@
         private Button addClient;
         private Button AllClients;
         private Button ShowClient;
-        private DataGridViewTextBoxColumn columIdClient;
-        private DataGridViewTextBoxColumn columNameClient;
-        private DataGridViewTextBoxColumn columAddres;
-        private DataGridViewTextBoxColumn ColumnPhon;
         private TextBox insertAddId;
         private Label addId;
     }
