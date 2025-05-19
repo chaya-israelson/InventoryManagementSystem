@@ -1,6 +1,7 @@
 ﻿using BlApi;
 using BO;
 
+
 namespace UI;
 
 public partial class ProductShow : Form
@@ -34,8 +35,20 @@ public partial class ProductShow : Form
             panelAllProduct.Visible = false;
             panelAddOrUpdateProduct.Visible = false;
             panelProductDetails.Visible = true;
-
             panelDeleteProduct.Visible = false;
+            panelShowProduct.Visible = true;
+            try
+            {
+                string id = showIdProduct.Text;
+                BO.Product product = s_bl.product.Read(int.Parse(id));
+                label3.Text = product.NameProduct;
+
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("שגוי");
+            }
+
         }
     }
 
@@ -51,12 +64,12 @@ public partial class ProductShow : Form
 
     private void AllProducts_Click(object sender, EventArgs e)
     {
-        dataGridViewAllProduct.Rows.Add(215188467, "chayaisraelson", 75, 1234);
         panelShowProduct.Visible = false;
         panelProductDetails.Visible = false;
         panelAddOrUpdateProduct.Visible = false;
         panelAllProduct.Visible = true;
         panelDeleteProduct.Visible = false;
+        dataGridViewAllProduct.DataSource = s_bl.product.ReadAll();
     }
 
 
@@ -71,7 +84,7 @@ public partial class ProductShow : Form
 
     }
 
-   
+
 
     private void deleteProduct_Click(object sender, EventArgs e)
     {
@@ -81,6 +94,47 @@ public partial class ProductShow : Form
         panelShowProduct.Visible = false;
         panelDeleteProduct.Visible = true;
     }
+    private void OK_Click(object sender, EventArgs e)
+    {
+        string id = textBox1.Text;
+        s_bl.product.Delete(int.Parse(id));
+    }
+
+    private void addOrUpdate_Click(object sender, EventArgs e)
+    {
+        if (addOrUpdate.Text == "הוספה")
+        {
+            try
+            {
+                Product product = new Product(1111, insertAddNameProduct.Text, (categories)Enum.Parse(typeof(categories), insertAddCategory.Text, true), double.Parse(insertAddPrice.Text), int.Parse(insertAddQuantityInStock.Text));
+                s_bl.product.Create(product);
+            }
+            catch (Exception es)
+            {
+                throw new Exception("שגיאה");
+            }
+            try
+            {
+                Product product = new Product(1111, insertAddNameProduct.Text, (categories)Enum.Parse(typeof(categories), insertAddCategory.Text, true), double.Parse(insertAddPrice.Text), int.Parse(insertAddQuantityInStock.Text));
+                s_bl.product.Update(product);
+            }
+            catch (Exception es)
+            {
+                throw new Exception("שגיאה");
+            }
+
+        }
+    }
+
+
+
+
+
+
+
+
+
+
     private void textBox2_TextChanged(object sender, EventArgs e)
     {
 
@@ -148,6 +202,18 @@ public partial class ProductShow : Form
     }
 
     private void dataGridViewAllProduct_CellContentClick(object sender, DataGridViewCellEventArgs e)
+    {
+
+    }
+
+
+
+    private void insertAddPrice_TextChanged(object sender, EventArgs e)
+    {
+
+    }
+
+    private void label2_Click(object sender, EventArgs e)
     {
 
     }
