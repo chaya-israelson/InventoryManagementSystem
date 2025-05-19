@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\אביגיל וחיה\\אביגיל וחיה\\DotNet2025_8467_4533\\DalFacade\\DalFacade.csproj": {}
+    "C:\\Users\\user1\\Documents\\חיה\\שנה ב\\אביגיל וחיה\\DotNet2025_8467_4533\\DalFacade\\DalFacade.csproj": {}
   },
   "projects": {
-    "D:\\אביגיל וחיה\\אביגיל וחיה\\DotNet2025_8467_4533\\DalFacade\\DalFacade.csproj": {
+    "C:\\Users\\user1\\Documents\\חיה\\שנה ב\\אביגיל וחיה\\DotNet2025_8467_4533\\DalFacade\\DalFacade.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\אביגיל וחיה\\אביגיל וחיה\\DotNet2025_8467_4533\\DalFacade\\DalFacade.csproj",
+        "projectUniqueName": "C:\\Users\\user1\\Documents\\חיה\\שנה ב\\אביגיל וחיה\\DotNet2025_8467_4533\\DalFacade\\DalFacade.csproj",
         "projectName": "DalFacade",
-        "projectPath": "D:\\אביגיל וחיה\\אביגיל וחיה\\DotNet2025_8467_4533\\DalFacade\\DalFacade.csproj",
+        "projectPath": "C:\\Users\\user1\\Documents\\חיה\\שנה ב\\אביגיל וחיה\\DotNet2025_8467_4533\\DalFacade\\DalFacade.csproj",
         "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
-        "outputPath": "D:\\אביגיל וחיה\\אביגיל וחיה\\DotNet2025_8467_4533\\DalFacade\\obj\\",
+        "outputPath": "C:\\Users\\user1\\Documents\\חיה\\שנה ב\\אביגיל וחיה\\DotNet2025_8467_4533\\DalFacade\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user1\\AppData\\Roaming\\NuGet\\NuGet.Config",

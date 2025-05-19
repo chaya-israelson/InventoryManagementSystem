@@ -7,9 +7,8 @@ namespace Dal;
 internal class ClientImplementation : IClient
 {
     const string filePath = @"..\xml\clients.xml";
-
-    const string CLIENTS = "clients";
-    const string CLIENT = "client";
+/*    const string CLIENTS = "clients";
+*/    const string CLIENT = "client";
     const string ID = "Id";
     const string NAME = "Name";
     const string ADDRES = "Addres";
@@ -30,13 +29,13 @@ internal class ClientImplementation : IClient
     public void Delete(int id)
     {
         XElement ClientXml = XElement.Load(filePath);
-        ClientXml.Descendants(ID).First(Id => Id.Value == id.ToString()).Parent.Remove();
+        ClientXml.Descendants(ID).FirstOrDefault(Id => Id.Value == id.ToString()).Parent.Remove();
         ClientXml.Save(filePath);
     }
 
     public Client? Read(int id)
     {
-        Client Client = ReadAll().Find(c =>c.Id == id);
+        Client Client = ReadAll().FirstOrDefault(c =>c.Id == id);
         return Client;
     }
 
@@ -50,19 +49,18 @@ internal class ClientImplementation : IClient
     public List<Client?> ReadAll(Func<Client, bool>? filter = null)
     {
         XElement ClientXml = XElement.Load(filePath);
-        List<Client> Clients = ClientXml.Descendants(CLIENT)
-                .Select(c => new Client()
-                {
-                    Id = int.Parse(c.Element(ID).Value),
-                    Name = c.Element(NAME).Value,
-                    Addres = c.Element(ADDRES).Value,
-                    Phon = c.Element(PHON).Value
+        List<Client?> clients = new List<Client?>();
 
-                }).Where(filter).ToList();
-
-        return Clients;
-         
-        
+           clients= ClientXml.Descendants(CLIENT)
+                    .Select(c => new Client(
+                    int.Parse(c.Element(ID)!.Value),
+                    c.Element(NAME)!.Value,
+                    c.Element(ADDRES)!.Value,
+                    c.Element(PHON)!.Value
+                    ) ).ToList()!;
+        if(filter != null)
+            return clients.Where(filter).ToList();
+        return clients;   
     }
 
     public void Update(Client item)

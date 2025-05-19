@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\אביגיל וחיה\\אביגיל וחיה\\DotNet2025_8467_4533\\Tools\\Tools.csproj",
+      "projectUniqueName": "C:\\Users\\user1\\Documents\\חיה\\שנה ב\\אביגיל וחיה\\DotNet2025_8467_4533\\Tools\\Tools.csproj",
       "projectName": "Tools",
-      "projectPath": "D:\\אביגיל וחיה\\אביגיל וחיה\\DotNet2025_8467_4533\\Tools\\Tools.csproj",
+      "projectPath": "C:\\Users\\user1\\Documents\\חיה\\שנה ב\\אביגיל וחיה\\DotNet2025_8467_4533\\Tools\\Tools.csproj",
       "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
-      "outputPath": "D:\\אביגיל וחיה\\אביגיל וחיה\\DotNet2025_8467_4533\\Tools\\obj\\",
+      "outputPath": "C:\\Users\\user1\\Documents\\חיה\\שנה ב\\אביגיל וחיה\\DotNet2025_8467_4533\\Tools\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user1\\AppData\\Roaming\\NuGet\\NuGet.Config",

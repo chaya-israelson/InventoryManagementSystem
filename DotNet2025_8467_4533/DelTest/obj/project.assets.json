@@ -86,11 +86,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\אביגיל וחיה\\אביגיל וחיה\\DotNet2025_8467_4533\\DelTest\\DelTest.csproj",
+      "projectUniqueName": "C:\\Users\\user1\\Documents\\חיה\\שנה ב\\אביגיל וחיה\\DotNet2025_8467_4533\\DelTest\\DelTest.csproj",
       "projectName": "DelTest",
-      "projectPath": "D:\\אביגיל וחיה\\אביגיל וחיה\\DotNet2025_8467_4533\\DelTest\\DelTest.csproj",
+      "projectPath": "C:\\Users\\user1\\Documents\\חיה\\שנה ב\\אביגיל וחיה\\DotNet2025_8467_4533\\DelTest\\DelTest.csproj",
       "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
-      "outputPath": "D:\\אביגיל וחיה\\אביגיל וחיה\\DotNet2025_8467_4533\\DelTest\\obj\\",
+      "outputPath": "C:\\Users\\user1\\Documents\\חיה\\שנה ב\\אביגיל וחיה\\DotNet2025_8467_4533\\DelTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user1\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -107,11 +107,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\אביגיל וחיה\\אביגיל וחיה\\DotNet2025_8467_4533\\DalFacade\\DalFacade.csproj": {
-              "projectPath": "D:\\אביגיל וחיה\\אביגיל וחיה\\DotNet2025_8467_4533\\DalFacade\\DalFacade.csproj"
+            "C:\\Users\\user1\\Documents\\חיה\\שנה ב\\אביגיל וחיה\\DotNet2025_8467_4533\\DalFacade\\DalFacade.csproj": {
+              "projectPath": "C:\\Users\\user1\\Documents\\חיה\\שנה ב\\אביגיל וחיה\\DotNet2025_8467_4533\\DalFacade\\DalFacade.csproj"
             },
-            "D:\\אביגיל וחיה\\אביגיל וחיה\\DotNet2025_8467_4533\\DalList\\DalList.csproj": {
-              "projectPath": "D:\\אביגיל וחיה\\אביגיל וחיה\\DotNet2025_8467_4533\\DalList\\DalList.csproj"
+            "C:\\Users\\user1\\Documents\\חיה\\שנה ב\\אביגיל וחיה\\DotNet2025_8467_4533\\DalList\\DalList.csproj": {
+              "projectPath": "C:\\Users\\user1\\Documents\\חיה\\שנה ב\\אביגיל וחיה\\DotNet2025_8467_4533\\DalList\\DalList.csproj"
             }
           }
         }
