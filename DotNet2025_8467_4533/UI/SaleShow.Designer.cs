@@ -31,9 +31,11 @@
             panelDeleteSale = new Panel();
             cancel = new Button();
             OK = new Button();
-            label1 = new Label();
-            textBox1 = new TextBox();
+            deleteIdSale = new Label();
+            deleteInsertIdSale = new TextBox();
             panelAddOrUpdateSale = new Panel();
+            addIdSale = new Label();
+            insertAddIdSale = new Label();
             insertAddEndDate = new DateTimePicker();
             insertTotalPrice = new TextBox();
             insertAddStartDate = new DateTimePicker();
@@ -47,37 +49,50 @@
             addAllClient = new Label();
             addCuont = new Label();
             addIdProduct = new Label();
-            panelShowSale = new Panel();
-            idSale = new Label();
-            showIdSale = new TextBox();
-            panelAllProduct = new Panel();
-            dataGridViewAllProduct = new DataGridView();
-            updetSale = new Button();
-            panelSaleDetails = new Panel();
-            label13 = new Label();
-            label12 = new Label();
-            label2 = new Label();
-            label5 = new Label();
-            label7 = new Label();
-            label9 = new Label();
-            label10 = new Label();
-            label11 = new Label();
-            label8 = new Label();
             category = new Label();
-            label6 = new Label();
-            label4 = new Label();
-            label3 = new Label();
+            panelAllSale = new Panel();
+            dataGridViewAllSale = new DataGridView();
             deleteSale = new Button();
             addSale = new Button();
             AllSales = new Button();
             ShowSale = new Button();
             backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            panelShowSale = new Panel();
+            showIdSale = new TextBox();
+            idSale = new Label();
+            panel2 = new Panel();
+            label1 = new Label();
+            label7 = new Label();
+            label8 = new Label();
+            checkBox1 = new CheckBox();
+            label9 = new Label();
+            label10 = new Label();
+            label11 = new Label();
+            label12 = new Label();
+            label14 = new Label();
+            label15 = new Label();
+            label16 = new Label();
+            label17 = new Label();
+            panelSaleDetails = new Panel();
+            idProduct = new Label();
+            showIdProduct = new Label();
+            showCount = new Label();
+            count = new Label();
+            startDate = new Label();
+            allClient = new Label();
+            price = new Label();
+            endDate = new Label();
+            showAllClient = new CheckBox();
+            showPrice = new Label();
+            showStartDate = new Label();
+            showEndDate = new Label();
             panelDeleteSale.SuspendLayout();
             panelAddOrUpdateSale.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)insertAddCount).BeginInit();
+            panelAllSale.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridViewAllSale).BeginInit();
             panelShowSale.SuspendLayout();
-            panelAllProduct.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridViewAllProduct).BeginInit();
+            panel2.SuspendLayout();
             panelSaleDetails.SuspendLayout();
             SuspendLayout();
             // 
@@ -86,9 +101,9 @@
             panelDeleteSale.BackColor = Color.Transparent;
             panelDeleteSale.Controls.Add(cancel);
             panelDeleteSale.Controls.Add(OK);
-            panelDeleteSale.Controls.Add(label1);
-            panelDeleteSale.Controls.Add(textBox1);
-            panelDeleteSale.Location = new Point(163, 205);
+            panelDeleteSale.Controls.Add(deleteIdSale);
+            panelDeleteSale.Controls.Add(deleteInsertIdSale);
+            panelDeleteSale.Location = new Point(161, 205);
             panelDeleteSale.Margin = new Padding(3, 4, 3, 4);
             panelDeleteSale.Name = "panelDeleteSale";
             panelDeleteSale.Size = new Size(603, 133);
@@ -103,6 +118,7 @@
             cancel.TabIndex = 3;
             cancel.Text = "ביטול";
             cancel.UseVisualStyleBackColor = true;
+            cancel.Click += cancel_Click;
             // 
             // OK
             // 
@@ -112,25 +128,28 @@
             OK.TabIndex = 2;
             OK.Text = "אישור";
             OK.UseVisualStyleBackColor = true;
+            OK.Click += OK_Click;
             // 
-            // label1
+            // deleteIdSale
             // 
-            label1.Location = new Point(409, 48);
-            label1.Name = "label1";
-            label1.Size = new Size(109, 27);
-            label1.TabIndex = 1;
-            label1.Text = "הכנס קוד מבצע";
+            deleteIdSale.Location = new Point(409, 48);
+            deleteIdSale.Name = "deleteIdSale";
+            deleteIdSale.Size = new Size(109, 27);
+            deleteIdSale.TabIndex = 1;
+            deleteIdSale.Text = "הכנס קוד מבצע";
             // 
-            // textBox1
+            // deleteInsertIdSale
             // 
-            textBox1.Location = new Point(223, 48);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(157, 27);
-            textBox1.TabIndex = 0;
+            deleteInsertIdSale.Location = new Point(223, 48);
+            deleteInsertIdSale.Name = "deleteInsertIdSale";
+            deleteInsertIdSale.Size = new Size(157, 27);
+            deleteInsertIdSale.TabIndex = 0;
             // 
             // panelAddOrUpdateSale
             // 
             panelAddOrUpdateSale.BackColor = Color.Transparent;
+            panelAddOrUpdateSale.Controls.Add(addIdSale);
+            panelAddOrUpdateSale.Controls.Add(insertAddIdSale);
             panelAddOrUpdateSale.Controls.Add(insertAddEndDate);
             panelAddOrUpdateSale.Controls.Add(insertTotalPrice);
             panelAddOrUpdateSale.Controls.Add(insertAddStartDate);
@@ -144,11 +163,27 @@
             panelAddOrUpdateSale.Controls.Add(addAllClient);
             panelAddOrUpdateSale.Controls.Add(addCuont);
             panelAddOrUpdateSale.Controls.Add(addIdProduct);
-            panelAddOrUpdateSale.Location = new Point(385, 35);
+            panelAddOrUpdateSale.Location = new Point(386, 35);
             panelAddOrUpdateSale.Margin = new Padding(3, 4, 3, 4);
             panelAddOrUpdateSale.Name = "panelAddOrUpdateSale";
             panelAddOrUpdateSale.Size = new Size(370, 493);
             panelAddOrUpdateSale.TabIndex = 18;
+            panelAddOrUpdateSale.Paint += panelAddOrUpdateSale_Paint;
+            // 
+            // addIdSale
+            // 
+            addIdSale.Location = new Point(273, 37);
+            addIdSale.Name = "addIdSale";
+            addIdSale.Size = new Size(118, 30);
+            addIdSale.TabIndex = 18;
+            addIdSale.Text = "קוד מבצע";
+            // 
+            // insertAddIdSale
+            // 
+            insertAddIdSale.Location = new Point(134, 37);
+            insertAddIdSale.Name = "insertAddIdSale";
+            insertAddIdSale.Size = new Size(118, 30);
+            insertAddIdSale.TabIndex = 17;
             // 
             // insertAddEndDate
             // 
@@ -257,162 +292,6 @@
             addIdProduct.TabIndex = 1;
             addIdProduct.Text = "קוד מוצר";
             // 
-            // panelShowSale
-            // 
-            panelShowSale.BackColor = Color.Transparent;
-            panelShowSale.Controls.Add(idSale);
-            panelShowSale.Controls.Add(showIdSale);
-            panelShowSale.Location = new Point(195, 72);
-            panelShowSale.Margin = new Padding(3, 4, 3, 4);
-            panelShowSale.Name = "panelShowSale";
-            panelShowSale.Size = new Size(572, 100);
-            panelShowSale.TabIndex = 14;
-            // 
-            // idSale
-            // 
-            idSale.Location = new Point(374, 44);
-            idSale.Name = "idSale";
-            idSale.Size = new Size(116, 27);
-            idSale.TabIndex = 1;
-            idSale.Text = "הכנס קוד מבצע";
-            // 
-            // showIdSale
-            // 
-            showIdSale.Location = new Point(193, 44);
-            showIdSale.Name = "showIdSale";
-            showIdSale.Size = new Size(159, 27);
-            showIdSale.TabIndex = 0;
-            showIdSale.TextChanged += showIdSale_TextChanged;
-            showIdSale.KeyDown += showIdSale_KeyDown;
-            // 
-            // panelAllProduct
-            // 
-            panelAllProduct.BackColor = Color.Transparent;
-            panelAllProduct.Controls.Add(dataGridViewAllProduct);
-            panelAllProduct.Location = new Point(225, 57);
-            panelAllProduct.Margin = new Padding(3, 4, 3, 4);
-            panelAllProduct.Name = "panelAllProduct";
-            panelAllProduct.Size = new Size(543, 481);
-            panelAllProduct.TabIndex = 17;
-            panelAllProduct.Paint += panelAllProduct_Paint;
-            // 
-            // dataGridViewAllProduct
-            // 
-            dataGridViewAllProduct.BackgroundColor = SystemColors.ButtonHighlight;
-            dataGridViewAllProduct.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewAllProduct.Location = new Point(8, 52);
-            dataGridViewAllProduct.Margin = new Padding(3, 4, 3, 4);
-            dataGridViewAllProduct.Name = "dataGridViewAllProduct";
-            dataGridViewAllProduct.RowHeadersWidth = 51;
-            dataGridViewAllProduct.RowTemplate.Height = 25;
-            dataGridViewAllProduct.Size = new Size(526, 419);
-            dataGridViewAllProduct.TabIndex = 0;
-            // 
-            // updetSale
-            // 
-            updetSale.Location = new Point(774, 467);
-            updetSale.Margin = new Padding(3, 4, 3, 4);
-            updetSale.Name = "updetSale";
-            updetSale.Size = new Size(237, 71);
-            updetSale.TabIndex = 16;
-            updetSale.Text = "עדכון מבצע";
-            updetSale.UseVisualStyleBackColor = true;
-            updetSale.Click += updetProduct_Click;
-            // 
-            // panelSaleDetails
-            // 
-            panelSaleDetails.BackColor = Color.Transparent;
-            panelSaleDetails.Controls.Add(label13);
-            panelSaleDetails.Controls.Add(label12);
-            panelSaleDetails.Controls.Add(label2);
-            panelSaleDetails.Controls.Add(label5);
-            panelSaleDetails.Controls.Add(label7);
-            panelSaleDetails.Controls.Add(label9);
-            panelSaleDetails.Controls.Add(label10);
-            panelSaleDetails.Controls.Add(label11);
-            panelSaleDetails.Controls.Add(label8);
-            panelSaleDetails.Controls.Add(category);
-            panelSaleDetails.Controls.Add(label6);
-            panelSaleDetails.Controls.Add(label4);
-            panelSaleDetails.Controls.Add(label3);
-            panelSaleDetails.Location = new Point(367, 179);
-            panelSaleDetails.Name = "panelSaleDetails";
-            panelSaleDetails.Size = new Size(392, 368);
-            panelSaleDetails.TabIndex = 15;
-            // 
-            // label13
-            // 
-            label13.Location = new Point(85, 264);
-            label13.Name = "label13";
-            label13.Size = new Size(74, 31);
-            label13.TabIndex = 21;
-            label13.Text = "label13";
-            // 
-            // label12
-            // 
-            label12.Location = new Point(85, 213);
-            label12.Name = "label12";
-            label12.Size = new Size(74, 31);
-            label12.TabIndex = 20;
-            label12.Text = "label12";
-            // 
-            // label2
-            // 
-            label2.Location = new Point(211, 110);
-            label2.Name = "label2";
-            label2.Size = new Size(118, 43);
-            label2.TabIndex = 19;
-            label2.Text = "מחיר מבצע";
-            // 
-            // label5
-            // 
-            label5.Location = new Point(211, 213);
-            label5.Name = "label5";
-            label5.Size = new Size(118, 43);
-            label5.TabIndex = 18;
-            label5.Text = "החל מתאריך";
-            // 
-            // label7
-            // 
-            label7.Location = new Point(211, 264);
-            label7.Name = "label7";
-            label7.Size = new Size(118, 43);
-            label7.TabIndex = 17;
-            label7.Text = "עד תאריך";
-            // 
-            // label9
-            // 
-            label9.Location = new Point(211, 163);
-            label9.Name = "label9";
-            label9.Size = new Size(118, 43);
-            label9.TabIndex = 16;
-            label9.Text = "ללקוחות מועדון";
-            // 
-            // label10
-            // 
-            label10.Location = new Point(211, 59);
-            label10.Name = "label10";
-            label10.Size = new Size(118, 43);
-            label10.TabIndex = 15;
-            label10.Text = "כמות למבצע";
-            // 
-            // label11
-            // 
-            label11.BackColor = Color.Transparent;
-            label11.Location = new Point(211, 13);
-            label11.Name = "label11";
-            label11.Size = new Size(118, 43);
-            label11.TabIndex = 14;
-            label11.Text = "קוד מוצר";
-            // 
-            // label8
-            // 
-            label8.Location = new Point(85, 161);
-            label8.Name = "label8";
-            label8.Size = new Size(111, 31);
-            label8.TabIndex = 6;
-            label8.Text = "label8";
-            // 
             // category
             // 
             category.Location = new Point(202, 81);
@@ -420,29 +299,29 @@
             category.Size = new Size(111, 31);
             category.TabIndex = 5;
             // 
-            // label6
+            // panelAllSale
             // 
-            label6.Location = new Point(85, 110);
-            label6.Name = "label6";
-            label6.Size = new Size(111, 31);
-            label6.TabIndex = 4;
-            label6.Text = "label6";
+            panelAllSale.BackColor = Color.Transparent;
+            panelAllSale.Controls.Add(dataGridViewAllSale);
+            panelAllSale.Location = new Point(225, 57);
+            panelAllSale.Margin = new Padding(3, 4, 3, 4);
+            panelAllSale.Name = "panelAllSale";
+            panelAllSale.Size = new Size(543, 481);
+            panelAllSale.TabIndex = 17;
+            panelAllSale.Paint += panelAllProduct_Paint;
             // 
-            // label4
+            // dataGridViewAllSale
             // 
-            label4.Location = new Point(85, 59);
-            label4.Name = "label4";
-            label4.Size = new Size(111, 31);
-            label4.TabIndex = 2;
-            label4.Text = "label4";
-            // 
-            // label3
-            // 
-            label3.Location = new Point(85, 17);
-            label3.Name = "label3";
-            label3.Size = new Size(111, 31);
-            label3.TabIndex = 1;
-            label3.Text = "label3";
+            dataGridViewAllSale.BackgroundColor = SystemColors.ButtonHighlight;
+            dataGridViewAllSale.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewAllSale.Location = new Point(8, 52);
+            dataGridViewAllSale.Margin = new Padding(3, 4, 3, 4);
+            dataGridViewAllSale.Name = "dataGridViewAllSale";
+            dataGridViewAllSale.RowHeadersWidth = 51;
+            dataGridViewAllSale.RowTemplate.Height = 25;
+            dataGridViewAllSale.Size = new Size(526, 419);
+            dataGridViewAllSale.TabIndex = 0;
+            dataGridViewAllSale.CellDoubleClick += dataGridViewAllSale_CellDoubleClick;
             // 
             // deleteSale
             // 
@@ -486,7 +365,273 @@
             ShowSale.TabIndex = 13;
             ShowSale.Text = "הצג מבצע";
             ShowSale.UseVisualStyleBackColor = true;
-            ShowSale.Click += ShowProduct_Click;
+            ShowSale.Click += ShowSale_Click;
+            // 
+            // panelShowSale
+            // 
+            panelShowSale.BackColor = Color.Transparent;
+            panelShowSale.Controls.Add(showIdSale);
+            panelShowSale.Controls.Add(idSale);
+            panelShowSale.Controls.Add(panel2);
+            panelShowSale.Location = new Point(161, 94);
+            panelShowSale.Margin = new Padding(3, 4, 3, 4);
+            panelShowSale.Name = "panelShowSale";
+            panelShowSale.Size = new Size(604, 86);
+            panelShowSale.TabIndex = 21;
+            // 
+            // showIdSale
+            // 
+            showIdSale.Location = new Point(178, 27);
+            showIdSale.Name = "showIdSale";
+            showIdSale.Size = new Size(157, 27);
+            showIdSale.TabIndex = 22;
+            showIdSale.KeyDown += showIdSale_KeyDown;
+            // 
+            // idSale
+            // 
+            idSale.Location = new Point(366, 30);
+            idSale.Name = "idSale";
+            idSale.Size = new Size(109, 27);
+            idSale.TabIndex = 21;
+            idSale.Text = "הכנס קוד מבצע";
+            // 
+            // panel2
+            // 
+            panel2.BackColor = Color.Transparent;
+            panel2.Controls.Add(label1);
+            panel2.Controls.Add(label7);
+            panel2.Controls.Add(label8);
+            panel2.Controls.Add(checkBox1);
+            panel2.Controls.Add(label9);
+            panel2.Controls.Add(label10);
+            panel2.Controls.Add(label11);
+            panel2.Controls.Add(label12);
+            panel2.Controls.Add(label14);
+            panel2.Controls.Add(label15);
+            panel2.Controls.Add(label16);
+            panel2.Controls.Add(label17);
+            panel2.Location = new Point(267, 230);
+            panel2.Margin = new Padding(3, 4, 3, 4);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(594, 321);
+            panel2.TabIndex = 20;
+            // 
+            // label1
+            // 
+            label1.Location = new Point(281, 250);
+            label1.Name = "label1";
+            label1.Size = new Size(109, 27);
+            label1.TabIndex = 12;
+            label1.Text = "כמות למבצע";
+            // 
+            // label7
+            // 
+            label7.Location = new Point(281, 202);
+            label7.Name = "label7";
+            label7.Size = new Size(109, 27);
+            label7.TabIndex = 11;
+            label7.Text = "כמות למבצע";
+            // 
+            // label8
+            // 
+            label8.Location = new Point(281, 115);
+            label8.Name = "label8";
+            label8.Size = new Size(109, 27);
+            label8.TabIndex = 10;
+            label8.Text = "כמות למבצע";
+            // 
+            // checkBox1
+            // 
+            checkBox1.AutoSize = true;
+            checkBox1.Enabled = false;
+            checkBox1.Location = new Point(331, 162);
+            checkBox1.Name = "checkBox1";
+            checkBox1.Size = new Size(18, 17);
+            checkBox1.TabIndex = 9;
+            checkBox1.UseVisualStyleBackColor = true;
+            // 
+            // label9
+            // 
+            label9.Location = new Point(409, 250);
+            label9.Name = "label9";
+            label9.Size = new Size(109, 27);
+            label9.TabIndex = 8;
+            label9.Text = "עד תאריך";
+            // 
+            // label10
+            // 
+            label10.Location = new Point(409, 115);
+            label10.Name = "label10";
+            label10.Size = new Size(109, 27);
+            label10.TabIndex = 7;
+            label10.Text = "מחיר מבצע";
+            // 
+            // label11
+            // 
+            label11.Location = new Point(409, 159);
+            label11.Name = "label11";
+            label11.Size = new Size(109, 27);
+            label11.TabIndex = 6;
+            label11.Text = "לקוחות מועדון";
+            // 
+            // label12
+            // 
+            label12.Location = new Point(409, 202);
+            label12.Name = "label12";
+            label12.Size = new Size(109, 27);
+            label12.TabIndex = 5;
+            label12.Text = "החל מתאריך";
+            // 
+            // label14
+            // 
+            label14.Location = new Point(409, 68);
+            label14.Name = "label14";
+            label14.Size = new Size(109, 27);
+            label14.TabIndex = 4;
+            label14.Text = "כמות למבצע";
+            // 
+            // label15
+            // 
+            label15.Location = new Point(281, 68);
+            label15.Name = "label15";
+            label15.Size = new Size(109, 27);
+            label15.TabIndex = 3;
+            label15.Text = "קוד מוצר";
+            // 
+            // label16
+            // 
+            label16.Location = new Point(281, 29);
+            label16.Name = "label16";
+            label16.Size = new Size(109, 27);
+            label16.TabIndex = 2;
+            label16.Text = "קוד מוצר";
+            // 
+            // label17
+            // 
+            label17.Location = new Point(409, 29);
+            label17.Name = "label17";
+            label17.Size = new Size(109, 27);
+            label17.TabIndex = 1;
+            label17.Text = "קוד מוצר";
+            // 
+            // panelSaleDetails
+            // 
+            panelSaleDetails.BackColor = Color.Transparent;
+            panelSaleDetails.Controls.Add(showEndDate);
+            panelSaleDetails.Controls.Add(showStartDate);
+            panelSaleDetails.Controls.Add(showPrice);
+            panelSaleDetails.Controls.Add(showAllClient);
+            panelSaleDetails.Controls.Add(endDate);
+            panelSaleDetails.Controls.Add(price);
+            panelSaleDetails.Controls.Add(allClient);
+            panelSaleDetails.Controls.Add(startDate);
+            panelSaleDetails.Controls.Add(count);
+            panelSaleDetails.Controls.Add(showCount);
+            panelSaleDetails.Controls.Add(showIdProduct);
+            panelSaleDetails.Controls.Add(idProduct);
+            panelSaleDetails.Location = new Point(119, 188);
+            panelSaleDetails.Margin = new Padding(3, 4, 3, 4);
+            panelSaleDetails.Name = "panelSaleDetails";
+            panelSaleDetails.Size = new Size(649, 321);
+            panelSaleDetails.TabIndex = 20;
+            // 
+            // idProduct
+            // 
+            idProduct.Location = new Point(409, 29);
+            idProduct.Name = "idProduct";
+            idProduct.Size = new Size(109, 27);
+            idProduct.TabIndex = 1;
+            idProduct.Text = "קוד מוצר";
+            // 
+            // showIdProduct
+            // 
+            showIdProduct.Location = new Point(281, 29);
+            showIdProduct.Name = "showIdProduct";
+            showIdProduct.Size = new Size(109, 27);
+            showIdProduct.TabIndex = 2;
+            showIdProduct.Text = "קוד מוצר";
+            // 
+            // showCount
+            // 
+            showCount.Location = new Point(281, 68);
+            showCount.Name = "showCount";
+            showCount.Size = new Size(109, 27);
+            showCount.TabIndex = 3;
+            showCount.Text = "קוד מוצר";
+            // 
+            // count
+            // 
+            count.Location = new Point(409, 68);
+            count.Name = "count";
+            count.Size = new Size(109, 27);
+            count.TabIndex = 4;
+            count.Text = "כמות למבצע";
+            // 
+            // startDate
+            // 
+            startDate.Location = new Point(409, 202);
+            startDate.Name = "startDate";
+            startDate.Size = new Size(109, 27);
+            startDate.TabIndex = 5;
+            startDate.Text = "החל מתאריך";
+            // 
+            // allClient
+            // 
+            allClient.Location = new Point(409, 159);
+            allClient.Name = "allClient";
+            allClient.Size = new Size(109, 27);
+            allClient.TabIndex = 6;
+            allClient.Text = "לקוחות מועדון";
+            // 
+            // price
+            // 
+            price.Location = new Point(409, 115);
+            price.Name = "price";
+            price.Size = new Size(109, 27);
+            price.TabIndex = 7;
+            price.Text = "מחיר מבצע";
+            // 
+            // endDate
+            // 
+            endDate.Location = new Point(409, 250);
+            endDate.Name = "endDate";
+            endDate.Size = new Size(109, 27);
+            endDate.TabIndex = 8;
+            endDate.Text = "עד תאריך";
+            // 
+            // showAllClient
+            // 
+            showAllClient.AutoSize = true;
+            showAllClient.Enabled = false;
+            showAllClient.Location = new Point(331, 162);
+            showAllClient.Name = "showAllClient";
+            showAllClient.Size = new Size(18, 17);
+            showAllClient.TabIndex = 9;
+            showAllClient.UseVisualStyleBackColor = true;
+            // 
+            // showPrice
+            // 
+            showPrice.Location = new Point(281, 115);
+            showPrice.Name = "showPrice";
+            showPrice.Size = new Size(109, 27);
+            showPrice.TabIndex = 10;
+            showPrice.Text = "כמות למבצע";
+            // 
+            // showStartDate
+            // 
+            showStartDate.Location = new Point(281, 202);
+            showStartDate.Name = "showStartDate";
+            showStartDate.Size = new Size(109, 27);
+            showStartDate.TabIndex = 11;
+            showStartDate.Text = "כמות למבצע";
+            // 
+            // showEndDate
+            // 
+            showEndDate.Location = new Point(281, 250);
+            showEndDate.Name = "showEndDate";
+            showEndDate.Size = new Size(109, 27);
+            showEndDate.TabIndex = 12;
+            showEndDate.Text = "כמות למבצע";
             // 
             // SaleShow
             // 
@@ -495,12 +640,11 @@
             BackgroundImage = Properties.Resources.world_tourism_day_coronavirus_pandemic_travel_accessories_objects_flat_lay_143683_4760;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1037, 600);
-            Controls.Add(panelDeleteSale);
-            Controls.Add(panelShowSale);
-            Controls.Add(panelAddOrUpdateSale);
-            Controls.Add(panelAllProduct);
-            Controls.Add(updetSale);
             Controls.Add(panelSaleDetails);
+            Controls.Add(panelShowSale);
+            Controls.Add(panelDeleteSale);
+            Controls.Add(panelAddOrUpdateSale);
+            Controls.Add(panelAllSale);
             Controls.Add(deleteSale);
             Controls.Add(addSale);
             Controls.Add(AllSales);
@@ -512,11 +656,14 @@
             panelAddOrUpdateSale.ResumeLayout(false);
             panelAddOrUpdateSale.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)insertAddCount).EndInit();
+            panelAllSale.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)dataGridViewAllSale).EndInit();
             panelShowSale.ResumeLayout(false);
             panelShowSale.PerformLayout();
-            panelAllProduct.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)dataGridViewAllProduct).EndInit();
+            panel2.ResumeLayout(false);
+            panel2.PerformLayout();
             panelSaleDetails.ResumeLayout(false);
+            panelSaleDetails.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -525,26 +672,22 @@
         private Panel panelDeleteSale;
         private Button cancel;
         private Button OK;
-        private Label label1;
-        private TextBox textBox1;
+        private Label deleteIdSale;
+        private TextBox deleteInsertIdSale;
         private Panel panelAddOrUpdateSale;
         private TextBox insertAddIdProduct;
         private Button addOrUpdate;
         private Label addAllClient;
         private Label addCuont;
         private Label addIdProduct;
-        private Panel panelAllProduct;
-        private DataGridView dataGridViewAllProduct;
-        private Button updetSale;
-        private Panel panelSaleDetails;
-        private Label label8;
+        private Panel panelAllSale;
+        private DataGridView dataGridViewAllSale;
+        private Label S;
         private Label category;
-        private Label label6;
-        private Label label4;
-        private Label label3;
-        private Panel panelShowSale;
-        private Label idSale;
-        private TextBox showIdSale;
+        /*        private Label showIdProduct;
+        */        /*        private Panel panelShowSale;
+                */        /*private Label idSale;
+                        private TextBox showIdSale;*/
         private Button deleteSale;
         private Button addSale;
         private Button AllSales;
@@ -558,13 +701,49 @@
         private DateTimePicker insertAddStartDate;
         private TextBox insertTotalPrice;
         private DateTimePicker insertAddEndDate;
-        private Label label13;
-        private Label label12;
-        private Label label2;
-        private Label label5;
+        /*        private Label showPrice;
+        *//*        private Label EndDate;
+        *//*        private Label allClient;
+        *//*        private Label count;
+        *//*        private Label idProduct;
+        */
+        private Label addIdSale;
+        private Label insertAddIdSale;
+        /*        private CheckBox showAllClient;
+        *//*        private Label showEndDate;
+        *//*        private Panel panelSaleDetails;
+        */
+        private Label showIdProdect;
+        private Panel panelShowSale;
+        private Panel panel2;
+        private Label label1;
         private Label label7;
+        private Label label8;
+        private CheckBox checkBox1;
         private Label label9;
         private Label label10;
         private Label label11;
+        private Label label12;
+        private Label label14;
+        private Label label15;
+        private Label label16;
+        private Label label17;
+        private Label idSale;
+        private TextBox showIdSale;
+        private Panel panelSaleDetails;
+        private Label showEndDate;
+        private Label showStartDate;
+        private Label showPrice;
+        private CheckBox showAllClient;
+        private Label endDate;
+        private Label price;
+        private Label allClient;
+        private Label startDate;
+        private Label count;
+        private Label showCount;
+        private Label showIdProduct;
+        private Label idProduct;
+        /*private Label idSale;
+private TextBox showIdSale;*/
     }
 }

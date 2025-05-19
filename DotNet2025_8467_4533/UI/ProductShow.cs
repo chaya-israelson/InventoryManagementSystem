@@ -51,12 +51,12 @@ public partial class ProductShow : Form
 
     private void AllProducts_Click(object sender, EventArgs e)
     {
-        dataGridViewAllProduct.Rows.Add(215188467, "chayaisraelson", 75, 1234);
         panelShowProduct.Visible = false;
         panelProductDetails.Visible = false;
         panelAddOrUpdateProduct.Visible = false;
         panelAllProduct.Visible = true;
         panelDeleteProduct.Visible = false;
+
     }
 
 
