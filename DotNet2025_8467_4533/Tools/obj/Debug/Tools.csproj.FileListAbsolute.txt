@@ -80,3 +80,15 @@ D:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\Tools\obj\De
 D:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\Tools\obj\Debug\Tools.pdb
 D:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\Tools\obj\Debug\ref\Tools.dll
 T:\יד\שבבים\C# מתקדם\אביגיל וחיה\DotNet2025_8467_4533\Tools\obj\Debug\Tools.sourcelink.json
+C:\Practicum_preparationAL\C#.net\c-.net\DotNet2025_8467_4533\bin\Tools.deps.json
+C:\Practicum_preparationAL\C#.net\c-.net\DotNet2025_8467_4533\bin\Tools.dll
+C:\Practicum_preparationAL\C#.net\c-.net\DotNet2025_8467_4533\bin\Tools.pdb
+C:\Practicum_preparationAL\C#.net\c-.net\DotNet2025_8467_4533\Tools\obj\Debug\Tools.csproj.AssemblyReference.cache
+C:\Practicum_preparationAL\C#.net\c-.net\DotNet2025_8467_4533\Tools\obj\Debug\Tools.GeneratedMSBuildEditorConfig.editorconfig
+C:\Practicum_preparationAL\C#.net\c-.net\DotNet2025_8467_4533\Tools\obj\Debug\Tools.AssemblyInfoInputs.cache
+C:\Practicum_preparationAL\C#.net\c-.net\DotNet2025_8467_4533\Tools\obj\Debug\Tools.AssemblyInfo.cs
+C:\Practicum_preparationAL\C#.net\c-.net\DotNet2025_8467_4533\Tools\obj\Debug\Tools.csproj.CoreCompileInputs.cache
+C:\Practicum_preparationAL\C#.net\c-.net\DotNet2025_8467_4533\Tools\obj\Debug\Tools.dll
+C:\Practicum_preparationAL\C#.net\c-.net\DotNet2025_8467_4533\Tools\obj\Debug\refint\Tools.dll
+C:\Practicum_preparationAL\C#.net\c-.net\DotNet2025_8467_4533\Tools\obj\Debug\Tools.pdb
+C:\Practicum_preparationAL\C#.net\c-.net\DotNet2025_8467_4533\Tools\obj\Debug\ref\Tools.dll
