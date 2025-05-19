@@ -23,21 +23,7 @@ public partial class ClientShow : Form
         panelAllClient.Visible = false;
         panelAddOrUpdateClient.Visible = false;
         panelDeleteClient.Visible = false;
-        String num = showIdClient.Text;
-        try
-        {
-            Client client = s_bl.client.Read(int.Parse(num));
-            if (client != null)
-            {
-                label3.Text = client.Name;
-                label4.Text = client.Addres;
-                label6.Text = client.Phon;
-            }
-        }
-        catch (Exception ex)
-        {
-            throw new Exception("ERROR");
-        }
+
     }
     private void AllClients_Click(object sender, EventArgs e)
     {
@@ -57,8 +43,7 @@ public partial class ClientShow : Form
         panelAllClient.Visible = false;
         addOrUpdate.Text = "הוספה";
         panelDeleteClient.Visible = false;
-        Client client = new Client(int.Parse(insertAddId.Text), insertAddNameClient.Text, insertAddAddres.Text, insertAddPhon.Text);
-        s_bl.client.Create(client);
+    
     }
     private void updetClient_Click(object sender, EventArgs e)
     {
@@ -70,8 +55,7 @@ public partial class ClientShow : Form
         // insertAddId.Visible = false;
         addOrUpdate.Text = "עדכון";
         panelDeleteClient.Visible = false;
-        Client client = new Client(int.Parse(insertAddId.Text), insertAddNameClient.Text, insertAddAddres.Text, insertAddPhon.Text);
-        s_bl.client.Update(client);
+     
     }
 
     private void deleteClient_Click(object sender, EventArgs e)
@@ -81,15 +65,7 @@ public partial class ClientShow : Form
         panelAllClient.Visible = false;
         panelAddOrUpdateClient.Visible = false;
         panelDeleteClient.Visible = true;
-        try
-        {
-            String num = insertId.Text;
-            s_bl.client.Delete(int.Parse(num));
-        }
-        catch (Exception ex)
-        {
-            throw new Exception("נתון שגוי");
-        }
+
     }
     private void showIdClient_KeyDown(object sender, KeyEventArgs e)
     {
@@ -100,10 +76,66 @@ public partial class ClientShow : Form
             panelAllClient.Visible = false;
             panelAddOrUpdateClient.Visible = false;
             panelDeleteClient.Visible = false;
+            String num = showIdClient.Text;
+            try
+            {
+                Client client = s_bl.client.Read(int.Parse(num));
+                if (client != null)
+                {
+                    label3.Text = client.Name;
+                    label4.Text = client.Addres;
+                    label6.Text = client.Phon;
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("ERROR");
+            }
         }
     }
 
+    private void OK_Click(object sender, EventArgs e)
+    {
+        try
+        {
+            String num = insertId.Text;
+            s_bl.client.Delete(int.Parse(num));
+        }
+        catch (Exception ex)
+        {
+            throw new Exception("נתון שגוי");
+        }
+    }
+    private void addOrUpdate_Click(object sender, EventArgs e)
+    {
+        if (addOrUpdate.Text == "הוספה")
+        {
+            try
+            {
+                Client client = new Client(int.Parse(insertAddId.Text), insertAddNameClient.Text, insertAddAddres.Text, insertAddPhon.Text);
+                s_bl.client.Create(client);
+              
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("נכשל");
+            }
+        }
+        else
+        {
+            try
+            {
+                Client client = new Client(int.Parse(insertAddId.Text), insertAddNameClient.Text, insertAddAddres.Text, insertAddPhon.Text);
+                s_bl.client.Update(client);
 
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("נכשל");
+            }
+        }
+
+    }
 
 
 
@@ -163,6 +195,4 @@ public partial class ClientShow : Form
     {
 
     }
-
-
 }

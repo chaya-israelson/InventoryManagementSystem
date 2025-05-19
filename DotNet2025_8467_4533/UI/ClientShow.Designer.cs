@@ -74,7 +74,7 @@
             panelDeleteClient.Controls.Add(OK);
             panelDeleteClient.Controls.Add(Id);
             panelDeleteClient.Controls.Add(insertId);
-            panelDeleteClient.Location = new Point(62, 341);
+            panelDeleteClient.Location = new Point(36, 122);
             panelDeleteClient.Name = "panelDeleteClient";
             panelDeleteClient.Size = new Size(497, 100);
             panelDeleteClient.TabIndex = 19;
@@ -99,6 +99,7 @@
             OK.TabIndex = 2;
             OK.Text = "אישור";
             OK.UseVisualStyleBackColor = true;
+            OK.Click += OK_Click;
             // 
             // Id
             // 
@@ -118,7 +119,6 @@
             // 
             // panelAddOrUpdateClient
             // 
-            panelAddOrUpdateClient.Controls.Add(panelDeleteClient);
             panelAddOrUpdateClient.Controls.Add(insertAddId);
             panelAddOrUpdateClient.Controls.Add(addId);
             panelAddOrUpdateClient.Controls.Add(insertAddPhon);
@@ -178,6 +178,7 @@
             addOrUpdate.TabIndex = 5;
             addOrUpdate.Text = "הוסף";
             addOrUpdate.UseVisualStyleBackColor = true;
+            addOrUpdate.Click += addOrUpdate_Click;
             // 
             // addPhon
             // 
@@ -368,6 +369,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(panelDeleteClient);
             Controls.Add(panelAddOrUpdateClient);
             Controls.Add(panelAllClient);
             Controls.Add(updetClient);

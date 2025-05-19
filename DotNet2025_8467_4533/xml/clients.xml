@@ -30,34 +30,4 @@
     <Addres>Maharil</Addres>
     <Phon>0583279654</Phon>
   </client>
-  <client>
-    <Id>21374</Id>
-    <Name>Shoshi</Name>
-    <Addres>Rashi</Addres>
-    <Phon>0527695236</Phon>
-  </client>
-  <client>
-    <Id>21375</Id>
-    <Name>Racheli</Name>
-    <Addres>Rashbi</Addres>
-    <Phon>0556726780</Phon>
-  </client>
-  <client>
-    <Id>21376</Id>
-    <Name>Sari</Name>
-    <Addres>Rambam</Addres>
-    <Phon>05567239854</Phon>
-  </client>
-  <client>
-    <Id>21377</Id>
-    <Name>Tamar</Name>
-    <Addres>Ramban</Addres>
-    <Phon>0527623698</Phon>
-  </client>
-  <client>
-    <Id>21378</Id>
-    <Name>Neomi</Name>
-    <Addres>Maharil</Addres>
-    <Phon>0583279654</Phon>
-  </client>
 </ArrayOfClient>
