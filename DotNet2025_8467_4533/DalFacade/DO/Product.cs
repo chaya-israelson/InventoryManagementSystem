@@ -1,5 +1,4 @@
 ﻿
-
 namespace DO;
 
 public record Product
