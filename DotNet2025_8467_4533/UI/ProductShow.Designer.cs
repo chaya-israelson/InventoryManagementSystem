@@ -55,6 +55,12 @@
             columNameProduct = new DataGridViewTextBoxColumn();
             columPrice = new DataGridViewTextBoxColumn();
             columnCategory = new DataGridViewTextBoxColumn();
+            idProductDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
+            nameProductDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
+            categoryDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
+            priceDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
+            quantityInStockDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
+            productBindingSource = new BindingSource(components);
             panelAllProduct = new Panel();
             addNameProduct = new Label();
             addPrice = new Label();
@@ -73,6 +79,7 @@
             panelShowProduct.SuspendLayout();
             panelProductDetails.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridViewAllProduct).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)productBindingSource).BeginInit();
             panelAllProduct.SuspendLayout();
             panelAddOrUpdateProduct.SuspendLayout();
             panelDeleteProduct.SuspendLayout();
@@ -263,9 +270,11 @@
             // 
             // dataGridViewAllProduct
             // 
+            dataGridViewAllProduct.AutoGenerateColumns = false;
             dataGridViewAllProduct.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewAllProduct.Columns.AddRange(new DataGridViewColumn[] { columIdProduct, columNameProduct, columPrice, columnCategory });
-            dataGridViewAllProduct.Location = new Point(8, 52);
+            dataGridViewAllProduct.Columns.AddRange(new DataGridViewColumn[] { columIdProduct, columNameProduct, columPrice, columnCategory, idProductDataGridViewTextBoxColumn, nameProductDataGridViewTextBoxColumn, categoryDataGridViewTextBoxColumn, priceDataGridViewTextBoxColumn, quantityInStockDataGridViewTextBoxColumn });
+            dataGridViewAllProduct.DataSource = productBindingSource;
+            dataGridViewAllProduct.Location = new Point(17, 17);
             dataGridViewAllProduct.Margin = new Padding(3, 4, 3, 4);
             dataGridViewAllProduct.Name = "dataGridViewAllProduct";
             dataGridViewAllProduct.RowHeadersWidth = 51;
@@ -276,13 +285,16 @@
             // 
             // columIdProduct
             // 
+            columIdProduct.DataPropertyName = "IdProduct";
             columIdProduct.HeaderText = "קוד מוצר";
             columIdProduct.MinimumWidth = 6;
             columIdProduct.Name = "columIdProduct";
+            columIdProduct.ReadOnly = true;
             columIdProduct.Width = 125;
             // 
             // columNameProduct
             // 
+            columNameProduct.DataPropertyName = "NameProduct";
             columNameProduct.HeaderText = "שם מוצר";
             columNameProduct.MinimumWidth = 6;
             columNameProduct.Name = "columNameProduct";
@@ -290,6 +302,7 @@
             // 
             // columPrice
             // 
+            columPrice.DataPropertyName = "Price";
             columPrice.HeaderText = "מחיר";
             columPrice.MinimumWidth = 6;
             columPrice.Name = "columPrice";
@@ -297,10 +310,56 @@
             // 
             // columnCategory
             // 
+            columnCategory.DataPropertyName = "Category";
             columnCategory.HeaderText = "קטגוריה";
             columnCategory.MinimumWidth = 6;
             columnCategory.Name = "columnCategory";
             columnCategory.Width = 125;
+            // 
+            // idProductDataGridViewTextBoxColumn
+            // 
+            idProductDataGridViewTextBoxColumn.DataPropertyName = "IdProduct";
+            idProductDataGridViewTextBoxColumn.HeaderText = "IdProduct";
+            idProductDataGridViewTextBoxColumn.MinimumWidth = 6;
+            idProductDataGridViewTextBoxColumn.Name = "idProductDataGridViewTextBoxColumn";
+            idProductDataGridViewTextBoxColumn.ReadOnly = true;
+            idProductDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // nameProductDataGridViewTextBoxColumn
+            // 
+            nameProductDataGridViewTextBoxColumn.DataPropertyName = "NameProduct";
+            nameProductDataGridViewTextBoxColumn.HeaderText = "NameProduct";
+            nameProductDataGridViewTextBoxColumn.MinimumWidth = 6;
+            nameProductDataGridViewTextBoxColumn.Name = "nameProductDataGridViewTextBoxColumn";
+            nameProductDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // categoryDataGridViewTextBoxColumn
+            // 
+            categoryDataGridViewTextBoxColumn.DataPropertyName = "Category";
+            categoryDataGridViewTextBoxColumn.HeaderText = "Category";
+            categoryDataGridViewTextBoxColumn.MinimumWidth = 6;
+            categoryDataGridViewTextBoxColumn.Name = "categoryDataGridViewTextBoxColumn";
+            categoryDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // priceDataGridViewTextBoxColumn
+            // 
+            priceDataGridViewTextBoxColumn.DataPropertyName = "Price";
+            priceDataGridViewTextBoxColumn.HeaderText = "Price";
+            priceDataGridViewTextBoxColumn.MinimumWidth = 6;
+            priceDataGridViewTextBoxColumn.Name = "priceDataGridViewTextBoxColumn";
+            priceDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // quantityInStockDataGridViewTextBoxColumn
+            // 
+            quantityInStockDataGridViewTextBoxColumn.DataPropertyName = "QuantityInStock";
+            quantityInStockDataGridViewTextBoxColumn.HeaderText = "QuantityInStock";
+            quantityInStockDataGridViewTextBoxColumn.MinimumWidth = 6;
+            quantityInStockDataGridViewTextBoxColumn.Name = "quantityInStockDataGridViewTextBoxColumn";
+            quantityInStockDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // productBindingSource
+            // 
+            productBindingSource.DataSource = typeof(BO.Product);
             // 
             // panelAllProduct
             // 
@@ -379,7 +438,7 @@
             panelAddOrUpdateProduct.Controls.Add(addCategory);
             panelAddOrUpdateProduct.Controls.Add(addPrice);
             panelAddOrUpdateProduct.Controls.Add(addNameProduct);
-            panelAddOrUpdateProduct.Location = new Point(189, 41);
+            panelAddOrUpdateProduct.Location = new Point(139, 41);
             panelAddOrUpdateProduct.Margin = new Padding(3, 4, 3, 4);
             panelAddOrUpdateProduct.Name = "panelAddOrUpdateProduct";
             panelAddOrUpdateProduct.Size = new Size(370, 493);
@@ -431,7 +490,7 @@
             textBox1.Size = new Size(206, 27);
             textBox1.TabIndex = 0;
             // 
-            // Options
+            // ProductShow
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -447,13 +506,14 @@
             Controls.Add(AllProducts);
             Controls.Add(ShowProduct);
             Margin = new Padding(3, 4, 3, 4);
-            Name = "Options";
-            Text = "Options";
+            Name = "ProductShow";
+            Text = "מוצרים";
             ((System.ComponentModel.ISupportInitialize)clientBindingSource).EndInit();
             panelShowProduct.ResumeLayout(false);
             panelShowProduct.PerformLayout();
             panelProductDetails.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)dataGridViewAllProduct).EndInit();
+            ((System.ComponentModel.ISupportInitialize)productBindingSource).EndInit();
             panelAllProduct.ResumeLayout(false);
             panelAddOrUpdateProduct.ResumeLayout(false);
             panelAddOrUpdateProduct.PerformLayout();
@@ -485,10 +545,6 @@
         private ListBox listBoxSales;
         private Button updetProduct;
         private DataGridView dataGridViewAllProduct;
-        private DataGridViewTextBoxColumn columIdProduct;
-        private DataGridViewTextBoxColumn columNameProduct;
-        private DataGridViewTextBoxColumn columPrice;
-        private DataGridViewTextBoxColumn columnCategory;
         private Panel panelAllProduct;
         private Label addNameProduct;
         private Label addPrice;
@@ -503,5 +559,15 @@
         private Button OK;
         private Label label1;
         private TextBox textBox1;
+        private DataGridViewTextBoxColumn columIdProduct;
+        private DataGridViewTextBoxColumn columNameProduct;
+        private DataGridViewTextBoxColumn columPrice;
+        private DataGridViewTextBoxColumn columnCategory;
+        private DataGridViewTextBoxColumn idProductDataGridViewTextBoxColumn;
+        private DataGridViewTextBoxColumn nameProductDataGridViewTextBoxColumn;
+        private DataGridViewTextBoxColumn categoryDataGridViewTextBoxColumn;
+        private DataGridViewTextBoxColumn priceDataGridViewTextBoxColumn;
+        private DataGridViewTextBoxColumn quantityInStockDataGridViewTextBoxColumn;
+        private BindingSource productBindingSource;
     }
 }

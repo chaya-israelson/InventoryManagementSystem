@@ -11,24 +11,31 @@ public partial class ManagerMenu : Form
        
     }
 
-    private void options_FormClosed(object? sender, FormClosedEventArgs e)
+    private void productShow_FormClosed(object? sender, FormClosedEventArgs e)
     {
         this.Show();
     }
 
     private void products_Click(object sender, EventArgs e)
     {
-        ProductShow options = new ProductShow();
+        ProductShow productShow = new ProductShow();
         this.Hide();
-        options.FormClosed += options_FormClosed;
-        options.Show();
-        options.Text = "מוצרים";
+        productShow.FormClosed += productShow_FormClosed;
+        productShow.Show();
     }
 
     private void sales_Click(object sender, EventArgs e)
     {
-      
+        SaleShow saleShow = new SaleShow();
+        this.Hide();
+        saleShow.FormClosed += saleShow_FormClosed;
+        saleShow.Show();
 
 
+    }
+
+    private void saleShow_FormClosed(object? sender, FormClosedEventArgs e)
+    {
+        this.Show();
     }
 }

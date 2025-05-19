@@ -60,3 +60,8 @@ C:\Users\user1\Documents\חיה\שנה ב\אביגיל וחיה\DotNet2025_8467_
 C:\Users\user1\Documents\חיה\שנה ב\אביגיל וחיה\DotNet2025_8467_4533\UI\obj\Debug\UI.pdb
 C:\Users\user1\Documents\חיה\שנה ב\אביגיל וחיה\DotNet2025_8467_4533\UI\obj\Debug\UI.genruntimeconfig.cache
 C:\Users\user1\Documents\חיה\שנה ב\אביגיל וחיה\DotNet2025_8467_4533\UI\obj\Debug\ref\UI.dll
+<<<<<<< HEAD
+=======
+C:\Users\user1\Documents\חיה\שנה ב\אביגיל וחיה\DotNet2025_8467_4533\UI\obj\Debug\UI.SaleShow.resources
+C:\Users\user1\Documents\חיה\שנה ב\אביגיל וחיה\DotNet2025_8467_4533\UI\obj\Debug\UI.Properties.Resources.resources
+>>>>>>> showSale

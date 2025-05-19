@@ -59,12 +59,29 @@ internal class ProductImplementation : IProduct
 
     public BO.Product? Read(Func<BO.Product, bool> filter)
     {
-        throw new NotImplementedException();
+        try
+        {
+            return _dal.Product.Read(p=>filter(p.Convert())).Convert();
+        }
+        catch
+        {
+            throw new Exception();
+        }
     }
 
     public List<BO.Product?> ReadAll(Func<BO.Product, bool>? filter = null)
     {
-        throw new NotImplementedException();
+        try
+        {
+            if(filter == null)
+                return _dal.Product.ReadAll().Select(p=>p.Convert()).ToList();
+            else
+                return _dal.Product.ReadAll(p=>filter(p.Convert())).Select(p=>p.Convert()).ToList();
+        }
+        catch
+        {
+            throw new Exception();
+        }
     }
 
     public void Update(BO.Product item)
