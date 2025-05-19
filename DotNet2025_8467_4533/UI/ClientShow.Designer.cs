@@ -43,7 +43,7 @@
             addPhon = new Label();
             addAddres = new Label();
             addNameClient = new Label();
-            dataGridViewAllProduct = new DataGridView();
+            dataGridViewAllClient = new DataGridView();
             columIdClient = new DataGridViewTextBoxColumn();
             columNameClient = new DataGridViewTextBoxColumn();
             columAddres = new DataGridViewTextBoxColumn();
@@ -66,7 +66,7 @@
             ShowClient = new Button();
             panelDeleteClient.SuspendLayout();
             panelAddOrUpdateClient.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridViewAllProduct).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridViewAllClient).BeginInit();
             panelAllClient.SuspendLayout();
             panelClientDetails.SuspendLayout();
             panelShowClient.SuspendLayout();
@@ -78,7 +78,7 @@
             panelDeleteClient.Controls.Add(OK);
             panelDeleteClient.Controls.Add(Id);
             panelDeleteClient.Controls.Add(insertId);
-            panelDeleteClient.Location = new Point(42, 12);
+            panelDeleteClient.Location = new Point(62, 341);
             panelDeleteClient.Name = "panelDeleteClient";
             panelDeleteClient.Size = new Size(497, 100);
             panelDeleteClient.TabIndex = 19;
@@ -122,6 +122,7 @@
             // 
             // panelAddOrUpdateClient
             // 
+            panelAddOrUpdateClient.Controls.Add(panelDeleteClient);
             panelAddOrUpdateClient.Controls.Add(insertAddId);
             panelAddOrUpdateClient.Controls.Add(addId);
             panelAddOrUpdateClient.Controls.Add(insertAddPhon);
@@ -206,17 +207,17 @@
             addNameClient.TabIndex = 1;
             addNameClient.Text = "שם לקוח";
             // 
-            // dataGridViewAllProduct
+            // dataGridViewAllClient
             // 
-            dataGridViewAllProduct.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewAllProduct.Columns.AddRange(new DataGridViewColumn[] { columIdClient, columNameClient, columAddres, ColumnPhon });
-            dataGridViewAllProduct.Location = new Point(0, 3);
-            dataGridViewAllProduct.Name = "dataGridViewAllProduct";
-            dataGridViewAllProduct.RowHeadersWidth = 51;
-            dataGridViewAllProduct.RowTemplate.Height = 25;
-            dataGridViewAllProduct.Size = new Size(475, 320);
-            dataGridViewAllProduct.TabIndex = 0;
-            dataGridViewAllProduct.CellContentClick += dataGridViewAllProduct_CellContentClick;
+            dataGridViewAllClient.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewAllClient.Columns.AddRange(new DataGridViewColumn[] { columIdClient, columNameClient, columAddres, ColumnPhon });
+            dataGridViewAllClient.Location = new Point(0, 3);
+            dataGridViewAllClient.Name = "dataGridViewAllClient";
+            dataGridViewAllClient.RowHeadersWidth = 51;
+            dataGridViewAllClient.RowTemplate.Height = 25;
+            dataGridViewAllClient.Size = new Size(475, 320);
+            dataGridViewAllClient.TabIndex = 0;
+            dataGridViewAllClient.CellContentClick += dataGridViewAllProduct_CellContentClick;
             // 
             // columIdClient
             // 
@@ -246,7 +247,7 @@
             // 
             // panelAllClient
             // 
-            panelAllClient.Controls.Add(dataGridViewAllProduct);
+            panelAllClient.Controls.Add(dataGridViewAllClient);
             panelAllClient.Location = new Point(36, 38);
             panelAllClient.Name = "panelAllClient";
             panelAllClient.Size = new Size(475, 361);
@@ -398,7 +399,6 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(panelDeleteClient);
             Controls.Add(panelAddOrUpdateClient);
             Controls.Add(panelAllClient);
             Controls.Add(updetClient);
@@ -414,7 +414,7 @@
             panelDeleteClient.PerformLayout();
             panelAddOrUpdateClient.ResumeLayout(false);
             panelAddOrUpdateClient.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridViewAllProduct).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridViewAllClient).EndInit();
             panelAllClient.ResumeLayout(false);
             panelClientDetails.ResumeLayout(false);
             panelShowClient.ResumeLayout(false);
@@ -438,7 +438,7 @@
         private Label addAddres;
         private Label addNameClient;
         private Panel panelAllClient;
-        private DataGridView dataGridViewAllProduct;
+        private DataGridView dataGridViewAllClient;
         private Button updetClient;
         private Panel panelClientDetails;
         private Label listSales;
