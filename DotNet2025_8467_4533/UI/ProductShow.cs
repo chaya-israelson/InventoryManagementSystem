@@ -17,6 +17,7 @@ public partial class ProductShow : Form
         panelAddOrUpdateProduct.Visible = false;
         panelDeleteProduct.Visible = false;
 
+
     }
 
     private void ShowProduct_Click(object sender, EventArgs e)

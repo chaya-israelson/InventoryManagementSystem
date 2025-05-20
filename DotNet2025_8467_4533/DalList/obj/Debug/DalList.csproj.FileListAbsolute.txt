@@ -103,6 +103,8 @@ D:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\DalList\obj\
 D:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\DalList\obj\Debug\DalList.pdb
 D:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\DalList\obj\Debug\ref\DalList.dll
 T:\יד\שבבים\C# מתקדם\אביגיל וחיה\DotNet2025_8467_4533\DalList\obj\Debug\DalList.sourcelink.json
+<<<<<<< HEAD
+=======
 C:\Users\user1\Documents\חיה\שנה ב\אביגיל וחיה\DotNet2025_8467_4533\bin\DalList.deps.json
 C:\Users\user1\Documents\חיה\שנה ב\אביגיל וחיה\DotNet2025_8467_4533\bin\DalList.dll
 C:\Users\user1\Documents\חיה\שנה ב\אביגיל וחיה\DotNet2025_8467_4533\bin\DalList.pdb
@@ -116,6 +118,7 @@ C:\Users\user1\Documents\חיה\שנה ב\אביגיל וחיה\DotNet2025_8467_
 C:\Users\user1\Documents\חיה\שנה ב\אביגיל וחיה\DotNet2025_8467_4533\DalList\obj\Debug\refint\DalList.dll
 C:\Users\user1\Documents\חיה\שנה ב\אביגיל וחיה\DotNet2025_8467_4533\DalList\obj\Debug\DalList.pdb
 C:\Users\user1\Documents\חיה\שנה ב\אביגיל וחיה\DotNet2025_8467_4533\DalList\obj\Debug\ref\DalList.dll
+>>>>>>> 4f203df14eb4fa7f84d69d86f26f789abc645310
 C:\Practicum_preparationAL\C#.net\c-.net\DotNet2025_8467_4533\bin\DalList.deps.json
 C:\Practicum_preparationAL\C#.net\c-.net\DotNet2025_8467_4533\bin\DalList.dll
 C:\Practicum_preparationAL\C#.net\c-.net\DotNet2025_8467_4533\bin\DalList.pdb
