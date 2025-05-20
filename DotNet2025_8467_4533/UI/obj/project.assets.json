@@ -107,11 +107,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Practicum_preparationAL\\C#.net\\c-.net\\DotNet2025_8467_4533\\UI\\UI.csproj",
+      "projectUniqueName": "C:\\Practicum_preparationAL\\c-.net\\DotNet2025_8467_4533\\UI\\UI.csproj",
       "projectName": "UI",
-      "projectPath": "C:\\Practicum_preparationAL\\C#.net\\c-.net\\DotNet2025_8467_4533\\UI\\UI.csproj",
+      "projectPath": "C:\\Practicum_preparationAL\\c-.net\\DotNet2025_8467_4533\\UI\\UI.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Practicum_preparationAL\\C#.net\\c-.net\\DotNet2025_8467_4533\\UI\\obj\\",
+      "outputPath": "C:\\Practicum_preparationAL\\c-.net\\DotNet2025_8467_4533\\UI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -132,14 +132,14 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Practicum_preparationAL\\C#.net\\c-.net\\DotNet2025_8467_4533\\BL\\BL.csproj": {
-              "projectPath": "C:\\Practicum_preparationAL\\C#.net\\c-.net\\DotNet2025_8467_4533\\BL\\BL.csproj"
+            "C:\\Practicum_preparationAL\\c-.net\\DotNet2025_8467_4533\\BL\\BL.csproj": {
+              "projectPath": "C:\\Practicum_preparationAL\\c-.net\\DotNet2025_8467_4533\\BL\\BL.csproj"
             },
-            "C:\\Practicum_preparationAL\\C#.net\\c-.net\\DotNet2025_8467_4533\\DalList\\DalList.csproj": {
-              "projectPath": "C:\\Practicum_preparationAL\\C#.net\\c-.net\\DotNet2025_8467_4533\\DalList\\DalList.csproj"
+            "C:\\Practicum_preparationAL\\c-.net\\DotNet2025_8467_4533\\DalList\\DalList.csproj": {
+              "projectPath": "C:\\Practicum_preparationAL\\c-.net\\DotNet2025_8467_4533\\DalList\\DalList.csproj"
             },
-            "C:\\Practicum_preparationAL\\C#.net\\c-.net\\DotNet2025_8467_4533\\DalXml\\DalXml.csproj": {
-              "projectPath": "C:\\Practicum_preparationAL\\C#.net\\c-.net\\DotNet2025_8467_4533\\DalXml\\DalXml.csproj"
+            "C:\\Practicum_preparationAL\\c-.net\\DotNet2025_8467_4533\\DalXml\\DalXml.csproj": {
+              "projectPath": "C:\\Practicum_preparationAL\\c-.net\\DotNet2025_8467_4533\\DalXml\\DalXml.csproj"
             }
           }
         }

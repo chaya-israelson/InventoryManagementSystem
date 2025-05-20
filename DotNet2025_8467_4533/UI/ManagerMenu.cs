@@ -8,7 +8,7 @@ public partial class ManagerMenu : Form
 
     private void clients_Click(object sender, EventArgs e)
     {
-       
+
     }
 
     private void options_FormClosed(object? sender, FormClosedEventArgs e)
@@ -23,12 +23,5 @@ public partial class ManagerMenu : Form
         options.FormClosed += options_FormClosed;
         options.Show();
         options.Text = "מוצרים";
-    }
-
-    private void sales_Click(object sender, EventArgs e)
-    {
-      
-
-
     }
 }
