@@ -77,3 +77,16 @@ C:\Practicum_preparationAL\C#.net\c-.net\DotNet2025_8467_4533\DalXml\obj\Debug\D
 C:\Practicum_preparationAL\C#.net\c-.net\DotNet2025_8467_4533\DalXml\obj\Debug\refint\DalXml.dll
 C:\Practicum_preparationAL\C#.net\c-.net\DotNet2025_8467_4533\DalXml\obj\Debug\DalXml.pdb
 C:\Practicum_preparationAL\C#.net\c-.net\DotNet2025_8467_4533\DalXml\obj\Debug\ref\DalXml.dll
+C:\Practicum_preparationAL\c-.net\DotNet2025_8467_4533\bin\DalXml.deps.json
+C:\Practicum_preparationAL\c-.net\DotNet2025_8467_4533\bin\DalXml.dll
+C:\Practicum_preparationAL\c-.net\DotNet2025_8467_4533\bin\DalXml.pdb
+C:\Practicum_preparationAL\c-.net\DotNet2025_8467_4533\DalXml\obj\Debug\DalXml.csproj.AssemblyReference.cache
+C:\Practicum_preparationAL\c-.net\DotNet2025_8467_4533\DalXml\obj\Debug\DalXml.GeneratedMSBuildEditorConfig.editorconfig
+C:\Practicum_preparationAL\c-.net\DotNet2025_8467_4533\DalXml\obj\Debug\DalXml.AssemblyInfoInputs.cache
+C:\Practicum_preparationAL\c-.net\DotNet2025_8467_4533\DalXml\obj\Debug\DalXml.AssemblyInfo.cs
+C:\Practicum_preparationAL\c-.net\DotNet2025_8467_4533\DalXml\obj\Debug\DalXml.csproj.CoreCompileInputs.cache
+C:\Practicum_preparationAL\c-.net\DotNet2025_8467_4533\DalXml\obj\Debug\DalXml.csproj.CopyComplete
+C:\Practicum_preparationAL\c-.net\DotNet2025_8467_4533\DalXml\obj\Debug\DalXml.dll
+C:\Practicum_preparationAL\c-.net\DotNet2025_8467_4533\DalXml\obj\Debug\refint\DalXml.dll
+C:\Practicum_preparationAL\c-.net\DotNet2025_8467_4533\DalXml\obj\Debug\DalXml.pdb
+C:\Practicum_preparationAL\c-.net\DotNet2025_8467_4533\DalXml\obj\Debug\ref\DalXml.dll

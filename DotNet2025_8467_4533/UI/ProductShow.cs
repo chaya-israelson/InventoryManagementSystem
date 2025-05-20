@@ -69,11 +69,9 @@ public partial class ProductShow : Form
         panelAddOrUpdateProduct.Visible = false;
         panelAllProduct.Visible = true;
         panelDeleteProduct.Visible = false;
-<<<<<<< HEAD
 
-=======
         dataGridViewAllProduct.DataSource = s_bl.product.ReadAll();
->>>>>>> 7d80d503922fb88b25a9e8c5cf35c5690e144d79
+
     }
 
 

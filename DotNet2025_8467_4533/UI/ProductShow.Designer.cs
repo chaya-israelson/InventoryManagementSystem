@@ -49,7 +49,6 @@
             label4 = new Label();
             label3 = new Label();
             nameProduct = new Label();
-<<<<<<< HEAD
             updetProduct = new Button();
             dataGridViewAllProduct = new DataGridView();
             columIdProduct = new DataGridViewTextBoxColumn();
@@ -62,8 +61,7 @@
             priceDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             quantityInStockDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             productBindingSource = new BindingSource(components);
-=======
->>>>>>> 7d80d503922fb88b25a9e8c5cf35c5690e144d79
+
             panelAllProduct = new Panel();
             dataGridViewAllProduct = new DataGridView();
             panelAddOrUpdateProduct = new Panel();
@@ -85,16 +83,13 @@
             ((System.ComponentModel.ISupportInitialize)clientBindingSource).BeginInit();
             panelShowProduct.SuspendLayout();
             panelProductDetails.SuspendLayout();
-<<<<<<< HEAD
             ((System.ComponentModel.ISupportInitialize)dataGridViewAllProduct).BeginInit();
             ((System.ComponentModel.ISupportInitialize)productBindingSource).BeginInit();
-=======
->>>>>>> 7d80d503922fb88b25a9e8c5cf35c5690e144d79
             panelAllProduct.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridViewAllProduct).BeginInit();
-            panelAddOrUpdateProduct.SuspendLayout();
-            panelDeleteProduct.SuspendLayout();
-            SuspendLayout();
+/*            ((System.ComponentModel.ISupportInitialize)dataGridViewAllProduct).BeginInit();
+*/            panelAddOrUpdateProduct.SuspendLayout();
+/*            panelDeleteProduct.SuspendLayout();
+*/            SuspendLayout();
             // 
             // clientBindingSource
             // 
@@ -266,7 +261,6 @@
             nameProduct.TabIndex = 0;
             nameProduct.Text = ":שם מוצר";
             // 
-<<<<<<< HEAD
             // updetProduct
             // 
             updetProduct.Location = new Point(579, 453);
@@ -371,8 +365,6 @@
             // 
             productBindingSource.DataSource = typeof(BO.Product);
             // 
-=======
->>>>>>> 7d80d503922fb88b25a9e8c5cf35c5690e144d79
             // panelAllProduct
             // 
             panelAllProduct.Controls.Add(dataGridViewAllProduct);
@@ -396,6 +388,7 @@
             // 
             panelAddOrUpdateProduct.Controls.Add(insertAddQuantityInStock);
             panelAddOrUpdateProduct.Controls.Add(insertQuantityInStock);
+
             panelAddOrUpdateProduct.Controls.Add(insertAddCategory);
             panelAddOrUpdateProduct.Controls.Add(insertAddPrice);
             panelAddOrUpdateProduct.Controls.Add(insertAddNameProduct);
@@ -403,12 +396,9 @@
             panelAddOrUpdateProduct.Controls.Add(addCategory);
             panelAddOrUpdateProduct.Controls.Add(addPrice);
             panelAddOrUpdateProduct.Controls.Add(addNameProduct);
-<<<<<<< HEAD
             panelAddOrUpdateProduct.Location = new Point(139, 41);
             panelAddOrUpdateProduct.Margin = new Padding(3, 4, 3, 4);
-=======
             panelAddOrUpdateProduct.Location = new Point(120, 36);
->>>>>>> 7d80d503922fb88b25a9e8c5cf35c5690e144d79
             panelAddOrUpdateProduct.Name = "panelAddOrUpdateProduct";
             panelAddOrUpdateProduct.Size = new Size(324, 370);
             panelAddOrUpdateProduct.TabIndex = 5;
@@ -547,7 +537,6 @@
             // 
             // ProductShow
             // 
-<<<<<<< HEAD
             cancel.Location = new Point(180, 86);
             cancel.Name = "cancel";
             cancel.Size = new Size(70, 34);
@@ -558,11 +547,11 @@
             // OK
             // 
             OK.Location = new Point(294, 86);
-            OK.Name = "OK";
-            OK.Size = new Size(70, 34);
-            OK.TabIndex = 2;
-            OK.Text = "אישור";
-            OK.UseVisualStyleBackColor = true;
+             OK.Name = "OK";
+             OK.Size = new Size(70, 34);
+             OK.TabIndex = 2;
+             OK.Text = "אישור";
+             OK.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
@@ -582,12 +571,10 @@
             // ProductShow
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
-=======
             AutoScaleDimensions = new SizeF(7F, 15F);
->>>>>>> 7d80d503922fb88b25a9e8c5cf35c5690e144d79
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(panelDeleteProduct);
+            Controls.Add(panelDeleteProduct);     
             Controls.Add(updetProduct);
             Controls.Add(panelAddOrUpdateProduct);
             Controls.Add(panelAllProduct);
@@ -597,23 +584,17 @@
             Controls.Add(addProduct);
             Controls.Add(AllProducts);
             Controls.Add(ShowProduct);
-<<<<<<< HEAD
             Margin = new Padding(3, 4, 3, 4);
             Name = "ProductShow";
             Text = "מוצרים";
-=======
             Name = "ProductShow";
             Text = "Options";
->>>>>>> 7d80d503922fb88b25a9e8c5cf35c5690e144d79
             ((System.ComponentModel.ISupportInitialize)clientBindingSource).EndInit();
             panelShowProduct.ResumeLayout(false);
             panelShowProduct.PerformLayout();
             panelProductDetails.ResumeLayout(false);
-<<<<<<< HEAD
             ((System.ComponentModel.ISupportInitialize)dataGridViewAllProduct).EndInit();
             ((System.ComponentModel.ISupportInitialize)productBindingSource).EndInit();
-=======
->>>>>>> 7d80d503922fb88b25a9e8c5cf35c5690e144d79
             panelAllProduct.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)dataGridViewAllProduct).EndInit();
             panelAddOrUpdateProduct.ResumeLayout(false);
@@ -656,7 +637,6 @@
         private TextBox insertAddCategory;
         private Panel panelAddOrUpdateProduct;
         private TextBox textBox1;
-<<<<<<< HEAD
         private DataGridViewTextBoxColumn columIdProduct;
         private DataGridViewTextBoxColumn columNameProduct;
         private DataGridViewTextBoxColumn columPrice;
@@ -667,13 +647,11 @@
         private DataGridViewTextBoxColumn priceDataGridViewTextBoxColumn;
         private DataGridViewTextBoxColumn quantityInStockDataGridViewTextBoxColumn;
         private BindingSource productBindingSource;
-=======
         private Label label1;
         private Button OK;
         private Button cancel;
         private Panel panelDeleteProduct;
         private Label insertQuantityInStock;
         private TextBox insertAddQuantityInStock;
->>>>>>> 7d80d503922fb88b25a9e8c5cf35c5690e144d79
     }
 }

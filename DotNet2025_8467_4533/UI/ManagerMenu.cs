@@ -20,8 +20,17 @@ public partial class ManagerMenu : Form
     {
         ProductShow productShow = new ProductShow();
         this.Hide();
-        productShow.FormClosed += productShow_FormClosed;
+        productShow.FormClosed += ProductShow_FormClosed;
         productShow.Show();
+        /*ProductShow productShow = new ProductShow();
+        this.Hide();
+        productShow.FormClosed += productShow_FormClosed;
+        productShow.Show();*/
+    }
+
+    private void ProductShow_FormClosed(object? sender, FormClosedEventArgs e)
+    {
+        this.Show();
     }
 
     private void sales_Click(object sender, EventArgs e)

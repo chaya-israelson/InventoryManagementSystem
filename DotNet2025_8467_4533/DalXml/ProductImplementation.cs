@@ -1,5 +1,6 @@
 ﻿using DalApi;
 using DO;
+using System.Linq;
 using System.Xml.Serialization;
 
 namespace Dal;
@@ -58,7 +59,17 @@ internal class ProductImplementation : IProduct
 
     public List<Product?> ReadAll(Func<Product, bool>? filter = null)
     {
-        return LoadList().Where(filter).ToList();
+        List<Product?> products = LoadList();
+        if (filter != null)
+        {
+            if (products == null)
+                throw new Exception();
+            else
+                products = products.Where(filter).ToList();
+        }
+        if (products == null)
+            throw new Exception();
+        return products;
     }
 
     public void Update(Product item)
