@@ -10,33 +10,43 @@ internal class OrderImplementation : IOrder
     private DalApi.IDal _dal = DalApi.Factory.Get;
     public List<BO.SaleInProduct> AddProductToOrder(BO.Order order, int IdProduct, int count)
     {
-      BO.Product product =_dal.Product.Read(IdProduct).Convert();
-        BO.ProductInOrder pio = new ProductInOrder(product.IdProduct, product.NameProduct, product.Price ?? 0, product.ProductsSaleList, product.QuantityInStock, product.Price ?? 0);
-        foreach (BO.ProductInOrder p in order.ListProduct)
+        try
         {
-            if (p.IdProduct == IdProduct)
+            BO.Product product = _dal.Product.Read(IdProduct).Convert();
+            BO.ProductInOrder productInOrder = order.ListProduct.FirstOrDefault(p => p.IdProduct == IdProduct);
+  
+            if (productInOrder!=null)
             {
-                if (p.Count + count > product.QuantityInStock)
+                if (count > product.QuantityInStock)
                     throw new Exception("חסר במלאי");
-                if (p.Count + count < 0)
+                if (productInOrder.Count + count < 0)
                     throw new Exception("פעולה לא חוקית");
-                p.Count += count;
-                product.QuantityInStock -= count; 
+                productInOrder.Count += count;
+                product.QuantityInStock -= count;// בכל מקרה לא משמעותי לנו למסך...
+                return product.ProductsSaleList;
             }
             else
             {
-                if (p.Count + count > product.QuantityInStock)
+                if ( count > product.QuantityInStock)
                     throw new Exception("חסר במלאי");
-                if (p.Count + count < 0)
+                if (count < 0)
                     throw new Exception("פעולה לא חוקית");
+                BO.ProductInOrder pio = new ProductInOrder(product.IdProduct, product.NameProduct, product.Price ?? 0, product.ProductsSaleList, count, product.Price ?? 0);
+                SearchSaleForProduct(pio, order.FavoriteClient);
+                CalcTotalPriceForProduct(pio);
+                CalcTotalPrice(order);
+                order.ListProduct.Add(pio);
+                return pio.ListSales;
+
             }
+
         }
-            SearchSaleForProduct(pio,order.FavoriteClient);
-            CalcTotalPriceForProduct(pio);
-            CalcTotalPrice(order);
-            return pio.ListSales;
+        catch (Exception e)
+        {
+            throw new Exception(e.Message);
+        }
+      
     
-           
     }
     
     public void CalcTotalPrice(BO.Order order)

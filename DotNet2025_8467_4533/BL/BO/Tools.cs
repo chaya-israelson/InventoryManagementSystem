@@ -33,27 +33,33 @@ internal static class Tools
     }
     public static BO.Client Convert(this DO.Client obj)
     {
+        if(obj == null) return null;    
         return new BO.Client(obj.Id, obj.Name!, obj.Addres!, obj.Phon!);
     }
     public static DO.Client Convert(this BO.Client obj)
     {
+        if (obj == null) return null;
         return new DO.Client(obj.Id, obj.Name, obj.Addres, obj.Phon);
     }
     public static BO.Product Convert(this DO.Product obj)
     {
+        if (obj == null) return null;
         return new BO.Product(obj.IdProduct, obj.NameProduct!,(BO.categories)( obj.Category), obj.Price??0, obj.QuantityInStock);
     }
     public static DO.Product Convert(this BO.Product obj)
     {
+        if (obj == null) return null;
         return new DO.Product(obj.IdProduct,obj.NameProduct, (DO.categories)(obj.Category), obj.Price,obj.QuantityInStock);
     }
     public static BO.Sale Convert(this DO.Sale obj)
     {
+        if (obj == null) return null;
         return new BO.Sale(obj.IdSale, obj.IdProduct, obj.Count, obj.TotalPrice??0, obj.AllCustomers??false, obj.StartDate??DateTime.Now, obj.EndDate??DateTime.Now);
 
     }
     public static DO.Sale Convert(this BO.Sale obj)
     {
+        if (obj == null) return null;
         return new DO.Sale(obj.IdSale, obj.IdProduct, obj.Count, obj.TotalPrice, obj.AllCustomers, obj.StartDate, obj.EndDate);
 
     }

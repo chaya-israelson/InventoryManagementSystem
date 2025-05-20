@@ -61,7 +61,6 @@
             sales.TabIndex = 0;
             sales.Text = "מבצעים";
             sales.UseVisualStyleBackColor = true;
-            sales.Click += sales_Click;
             // 
             // ManagerMenu
             // 

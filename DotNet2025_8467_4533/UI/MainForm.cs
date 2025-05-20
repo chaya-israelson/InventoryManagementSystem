@@ -1,3 +1,5 @@
+using System.Linq.Expressions;
+
 namespace UI;
 
 public partial class MainForm : Form
@@ -22,6 +24,9 @@ public partial class MainForm : Form
 
     private void seller_Click(object sender, EventArgs e)
     {
-
+        showCashier showCashier = new showCashier();
+        this.Hide();
+        showCashier.FormClosed+= ManagerMenu_FormClosed;
+        showCashier.Show();
     }
 }
