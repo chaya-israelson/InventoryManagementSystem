@@ -47,12 +47,31 @@ internal class SaleImplementation : ISale
 
     public BO.Sale? Read(Func<BO.Sale, bool> filter)
     {
-        throw new NotImplementedException();
+        try
+        {
+            return _dal.Sale.Read(s=>filter(s.Convert())).Convert();
+
+        }
+        catch
+        {
+            throw new Exception();
+        }
     }
 
     public List<BO.Sale?> ReadAll(Func<BO.Sale, bool>? filter = null)
     {
-        throw new NotImplementedException();
+        try
+        { 
+            if (filter == null)
+                return _dal.Sale.ReadAll().Select(s=>s.Convert()).ToList();
+            else
+                return _dal.Sale.ReadAll(s=>filter(s.Convert())).Select(s=>s.Convert()).ToList();
+
+        }
+        catch
+        {
+            throw new Exception();
+        }
     }
 
     public void Update(BO.Sale item)

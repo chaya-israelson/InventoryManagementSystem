@@ -1,15 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ArrayOfSale xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Sale>
-    <IdSale>101</IdSale>
-    <IdProduct>12345</IdProduct>
-    <Count>2</Count>
-    <TotalPrice>99</TotalPrice>
-    <AllCustomers>true</AllCustomers>
-    <StartDate>2025-05-07T12:10:18.7078676+03:00</StartDate>
-    <EndDate>2025-05-07T12:10:18.7120105+03:00</EndDate>
-  </Sale>
-  <Sale>
     <IdSale>102</IdSale>
     <IdProduct>12346</IdProduct>
     <Count>5</Count>
@@ -53,5 +44,50 @@
     <AllCustomers>false</AllCustomers>
     <StartDate>2025-05-12T15:33:32.2159568+03:00</StartDate>
     <EndDate>2025-05-12T15:33:32.2159595+03:00</EndDate>
+  </Sale>
+  <Sale>
+    <IdSale>101</IdSale>
+    <IdProduct>12345</IdProduct>
+    <Count>2</Count>
+    <TotalPrice>9999</TotalPrice>
+    <AllCustomers>true</AllCustomers>
+    <StartDate>2025-05-07T12:10:18.7078676+03:00</StartDate>
+    <EndDate>2025-05-07T12:10:18.7078676+03:00</EndDate>
+  </Sale>
+  <Sale>
+    <IdSale>107</IdSale>
+    <IdProduct>12345</IdProduct>
+    <Count>4</Count>
+    <TotalPrice>123</TotalPrice>
+    <AllCustomers>false</AllCustomers>
+    <StartDate>2025-05-20T01:40:17.3516178+03:00</StartDate>
+    <EndDate>2025-05-20T01:40:17.3517156+03:00</EndDate>
+  </Sale>
+  <Sale>
+    <IdSale>104</IdSale>
+    <IdProduct>12345</IdProduct>
+    <Count>2</Count>
+    <TotalPrice>2151</TotalPrice>
+    <AllCustomers>true</AllCustomers>
+    <StartDate>2025-05-12T15:33:32.1566642+03:00</StartDate>
+    <EndDate>2025-05-12T15:33:32.1566642+03:00</EndDate>
+  </Sale>
+  <Sale>
+    <IdSale>101</IdSale>
+    <IdProduct>12345</IdProduct>
+    <Count>10</Count>
+    <TotalPrice>1</TotalPrice>
+    <AllCustomers>true</AllCustomers>
+    <StartDate>2025-05-07T12:10:18.7078676+03:00</StartDate>
+    <EndDate>2025-05-07T12:10:18.7078676+03:00</EndDate>
+  </Sale>
+  <Sale>
+    <IdSale>109</IdSale>
+    <IdProduct>12345</IdProduct>
+    <Count>2</Count>
+    <TotalPrice>50</TotalPrice>
+    <AllCustomers>false</AllCustomers>
+    <StartDate>2025-05-15T13:34:24</StartDate>
+    <EndDate>2025-05-08T13:34:24</EndDate>
   </Sale>
 </ArrayOfSale>

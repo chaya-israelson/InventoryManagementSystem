@@ -80,6 +80,20 @@ D:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\Tools\obj\De
 D:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\Tools\obj\Debug\Tools.pdb
 D:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\Tools\obj\Debug\ref\Tools.dll
 T:\יד\שבבים\C# מתקדם\אביגיל וחיה\DotNet2025_8467_4533\Tools\obj\Debug\Tools.sourcelink.json
+<<<<<<< HEAD
+C:\Users\user1\Documents\חיה\שנה ב\אביגיל וחיה\DotNet2025_8467_4533\bin\Tools.deps.json
+C:\Users\user1\Documents\חיה\שנה ב\אביגיל וחיה\DotNet2025_8467_4533\bin\Tools.dll
+C:\Users\user1\Documents\חיה\שנה ב\אביגיל וחיה\DotNet2025_8467_4533\bin\Tools.pdb
+C:\Users\user1\Documents\חיה\שנה ב\אביגיל וחיה\DotNet2025_8467_4533\Tools\obj\Debug\Tools.csproj.AssemblyReference.cache
+C:\Users\user1\Documents\חיה\שנה ב\אביגיל וחיה\DotNet2025_8467_4533\Tools\obj\Debug\Tools.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\Documents\חיה\שנה ב\אביגיל וחיה\DotNet2025_8467_4533\Tools\obj\Debug\Tools.AssemblyInfoInputs.cache
+C:\Users\user1\Documents\חיה\שנה ב\אביגיל וחיה\DotNet2025_8467_4533\Tools\obj\Debug\Tools.AssemblyInfo.cs
+C:\Users\user1\Documents\חיה\שנה ב\אביגיל וחיה\DotNet2025_8467_4533\Tools\obj\Debug\Tools.csproj.CoreCompileInputs.cache
+C:\Users\user1\Documents\חיה\שנה ב\אביגיל וחיה\DotNet2025_8467_4533\Tools\obj\Debug\Tools.dll
+C:\Users\user1\Documents\חיה\שנה ב\אביגיל וחיה\DotNet2025_8467_4533\Tools\obj\Debug\refint\Tools.dll
+C:\Users\user1\Documents\חיה\שנה ב\אביגיל וחיה\DotNet2025_8467_4533\Tools\obj\Debug\Tools.pdb
+C:\Users\user1\Documents\חיה\שנה ב\אביגיל וחיה\DotNet2025_8467_4533\Tools\obj\Debug\ref\Tools.dll
+=======
 C:\Practicum_preparationAL\C#.net\c-.net\DotNet2025_8467_4533\bin\Tools.deps.json
 C:\Practicum_preparationAL\C#.net\c-.net\DotNet2025_8467_4533\bin\Tools.dll
 C:\Practicum_preparationAL\C#.net\c-.net\DotNet2025_8467_4533\bin\Tools.pdb
@@ -92,6 +106,10 @@ C:\Practicum_preparationAL\C#.net\c-.net\DotNet2025_8467_4533\Tools\obj\Debug\To
 C:\Practicum_preparationAL\C#.net\c-.net\DotNet2025_8467_4533\Tools\obj\Debug\refint\Tools.dll
 C:\Practicum_preparationAL\C#.net\c-.net\DotNet2025_8467_4533\Tools\obj\Debug\Tools.pdb
 C:\Practicum_preparationAL\C#.net\c-.net\DotNet2025_8467_4533\Tools\obj\Debug\ref\Tools.dll
+<<<<<<< HEAD
+=======
+>>>>>>> 7d80d503922fb88b25a9e8c5cf35c5690e144d79
+>>>>>>> 570a98be45d52d7bc4dee307f62fd7b3e3bac77e
 C:\Practicum_preparationAL\c-.net\DotNet2025_8467_4533\bin\Tools.deps.json
 C:\Practicum_preparationAL\c-.net\DotNet2025_8467_4533\bin\Tools.dll
 C:\Practicum_preparationAL\c-.net\DotNet2025_8467_4533\bin\Tools.pdb

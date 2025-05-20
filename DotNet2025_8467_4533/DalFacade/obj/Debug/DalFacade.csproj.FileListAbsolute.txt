@@ -92,6 +92,20 @@ D:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\DalFacade\ob
 D:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\DalFacade\obj\Debug\DalFacade.pdb
 D:\אביגיל וחיה\אביגיל וחיה\DotNet2025_8467_4533\DalFacade\obj\Debug\ref\DalFacade.dll
 T:\יד\שבבים\C# מתקדם\אביגיל וחיה\DotNet2025_8467_4533\DalFacade\obj\Debug\DalFacade.sourcelink.json
+<<<<<<< HEAD
+C:\Users\user1\Documents\חיה\שנה ב\אביגיל וחיה\DotNet2025_8467_4533\bin\DalFacade.deps.json
+C:\Users\user1\Documents\חיה\שנה ב\אביגיל וחיה\DotNet2025_8467_4533\bin\DalFacade.dll
+C:\Users\user1\Documents\חיה\שנה ב\אביגיל וחיה\DotNet2025_8467_4533\bin\DalFacade.pdb
+C:\Users\user1\Documents\חיה\שנה ב\אביגיל וחיה\DotNet2025_8467_4533\DalFacade\obj\Debug\DalFacade.csproj.AssemblyReference.cache
+C:\Users\user1\Documents\חיה\שנה ב\אביגיל וחיה\DotNet2025_8467_4533\DalFacade\obj\Debug\DalFacade.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\Documents\חיה\שנה ב\אביגיל וחיה\DotNet2025_8467_4533\DalFacade\obj\Debug\DalFacade.AssemblyInfoInputs.cache
+C:\Users\user1\Documents\חיה\שנה ב\אביגיל וחיה\DotNet2025_8467_4533\DalFacade\obj\Debug\DalFacade.AssemblyInfo.cs
+C:\Users\user1\Documents\חיה\שנה ב\אביגיל וחיה\DotNet2025_8467_4533\DalFacade\obj\Debug\DalFacade.csproj.CoreCompileInputs.cache
+C:\Users\user1\Documents\חיה\שנה ב\אביגיל וחיה\DotNet2025_8467_4533\DalFacade\obj\Debug\DalFacade.dll
+C:\Users\user1\Documents\חיה\שנה ב\אביגיל וחיה\DotNet2025_8467_4533\DalFacade\obj\Debug\refint\DalFacade.dll
+C:\Users\user1\Documents\חיה\שנה ב\אביגיל וחיה\DotNet2025_8467_4533\DalFacade\obj\Debug\DalFacade.pdb
+C:\Users\user1\Documents\חיה\שנה ב\אביגיל וחיה\DotNet2025_8467_4533\DalFacade\obj\Debug\ref\DalFacade.dll
+=======
 C:\Practicum_preparationAL\C#.net\c-.net\DotNet2025_8467_4533\bin\DalFacade.deps.json
 C:\Practicum_preparationAL\C#.net\c-.net\DotNet2025_8467_4533\bin\DalFacade.dll
 C:\Practicum_preparationAL\C#.net\c-.net\DotNet2025_8467_4533\bin\DalFacade.pdb
@@ -104,6 +118,8 @@ C:\Practicum_preparationAL\C#.net\c-.net\DotNet2025_8467_4533\DalFacade\obj\Debu
 C:\Practicum_preparationAL\C#.net\c-.net\DotNet2025_8467_4533\DalFacade\obj\Debug\refint\DalFacade.dll
 C:\Practicum_preparationAL\C#.net\c-.net\DotNet2025_8467_4533\DalFacade\obj\Debug\DalFacade.pdb
 C:\Practicum_preparationAL\C#.net\c-.net\DotNet2025_8467_4533\DalFacade\obj\Debug\ref\DalFacade.dll
+>>>>>>> 7d80d503922fb88b25a9e8c5cf35c5690e144d79
+>>>>>>> 570a98be45d52d7bc4dee307f62fd7b3e3bac77e
 C:\Practicum_preparationAL\c-.net\DotNet2025_8467_4533\bin\DalFacade.deps.json
 C:\Practicum_preparationAL\c-.net\DotNet2025_8467_4533\bin\DalFacade.dll
 C:\Practicum_preparationAL\c-.net\DotNet2025_8467_4533\bin\DalFacade.pdb
