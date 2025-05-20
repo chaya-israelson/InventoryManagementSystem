@@ -21,5 +21,8 @@
     <EmbeddedResource Update="ProductShow.resx">
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <Compile Update="showCashier.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

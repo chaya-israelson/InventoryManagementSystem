@@ -97,6 +97,7 @@ C:\Practicum_preparationAL\c-.net\DotNet2025_8467_4533\UI\obj\Debug\UI.csproj.Ge
 C:\Practicum_preparationAL\c-.net\DotNet2025_8467_4533\UI\obj\Debug\UI.dll
 C:\Practicum_preparationAL\c-.net\DotNet2025_8467_4533\UI\obj\Debug\refint\UI.dll
 C:\Practicum_preparationAL\c-.net\DotNet2025_8467_4533\UI\obj\Debug\UI.pdb
+>>>>>>> 570a98be45d52d7bc4dee307f62fd7b3e3bac77e
 C:\Practicum_preparationAL\c-.net\DotNet2025_8467_4533\bin\UI.exe
 C:\Practicum_preparationAL\c-.net\DotNet2025_8467_4533\bin\UI.deps.json
 C:\Practicum_preparationAL\c-.net\DotNet2025_8467_4533\bin\UI.runtimeconfig.json
@@ -110,3 +111,5 @@ C:\Practicum_preparationAL\c-.net\DotNet2025_8467_4533\UI\obj\Debug\UI.csproj.Co
 C:\Practicum_preparationAL\c-.net\DotNet2025_8467_4533\UI\obj\Debug\UI.csproj.CopyComplete
 C:\Practicum_preparationAL\c-.net\DotNet2025_8467_4533\UI\obj\Debug\UI.genruntimeconfig.cache
 C:\Practicum_preparationAL\c-.net\DotNet2025_8467_4533\UI\obj\Debug\ref\UI.dll
+C:\Practicum_preparationAL\c-.net\DotNet2025_8467_4533\UI\obj\Debug\UI.AddProduct.resources
+C:\Practicum_preparationAL\c-.net\DotNet2025_8467_4533\UI\obj\Debug\UI.showCashier.resources

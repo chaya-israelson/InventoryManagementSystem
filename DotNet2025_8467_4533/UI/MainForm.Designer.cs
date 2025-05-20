@@ -61,7 +61,6 @@
             Controls.Add(management);
             Name = "MainForm";
             Text = "MainForm";
-            Load += seller_Click;
             ResumeLayout(false);
         }
 
