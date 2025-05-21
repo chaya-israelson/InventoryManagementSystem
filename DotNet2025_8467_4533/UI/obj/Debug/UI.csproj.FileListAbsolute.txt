@@ -62,13 +62,9 @@ C:\Users\user1\Documents\חיה\שנה ב\אביגיל וחיה\DotNet2025_8467_
 C:\Users\user1\Documents\חיה\שנה ב\אביגיל וחיה\DotNet2025_8467_4533\UI\obj\Debug\UI.pdb
 C:\Users\user1\Documents\חיה\שנה ב\אביגיל וחיה\DotNet2025_8467_4533\UI\obj\Debug\UI.genruntimeconfig.cache
 C:\Users\user1\Documents\חיה\שנה ב\אביגיל וחיה\DotNet2025_8467_4533\UI\obj\Debug\ref\UI.dll
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 C:\Users\user1\Documents\חיה\שנה ב\אביגיל וחיה\DotNet2025_8467_4533\UI\obj\Debug\UI.SaleShow.resources
 C:\Users\user1\Documents\חיה\שנה ב\אביגיל וחיה\DotNet2025_8467_4533\UI\obj\Debug\UI.Properties.Resources.resources
 >>>>>>> showSale
-=======
 >>>>>>> 4f203df14eb4fa7f84d69d86f26f789abc645310
 >>>>>>> showClient
 C:\Practicum_preparationAL\C#.net\c-.net\DotNet2025_8467_4533\bin\UI.exe
@@ -120,3 +116,5 @@ C:\Practicum_preparationAL\c-.net\DotNet2025_8467_4533\UI\obj\Debug\UI.genruntim
 C:\Practicum_preparationAL\c-.net\DotNet2025_8467_4533\UI\obj\Debug\ref\UI.dll
 C:\Practicum_preparationAL\c-.net\DotNet2025_8467_4533\UI\obj\Debug\UI.AddProduct.resources
 C:\Practicum_preparationAL\c-.net\DotNet2025_8467_4533\UI\obj\Debug\UI.showCashier.resources
+C:\Users\user1\Documents\חיה\שנה ב\אביגיל וחיה\DotNet2025_8467_4533\UI\obj\Debug\UI.ClientShow.resources
+C:\Users\user1\Documents\חיה\שנה ב\אביגיל וחיה\DotNet2025_8467_4533\UI\obj\Debug\UI.showCashier.resources

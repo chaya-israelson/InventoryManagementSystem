@@ -47,20 +47,10 @@ public partial class ProductShow : Form
             }
             catch (Exception ex)
             {
-                throw new Exception("שגוי");
+                throw new Exception(ex.Message);
             }
 
         }
-    }
-
-    private void updetProduct_Click(object sender, EventArgs e)
-    {
-        panelShowProduct.Visible = false;
-        panelProductDetails.Visible = false;
-        panelAllProduct.Visible = false;
-        panelAddOrUpdateProduct.Visible = true;
-        panelDeleteProduct.Visible = false;
-        addOrUpdate.Text = "עדכן";
     }
 
     private void AllProducts_Click(object sender, EventArgs e)
@@ -84,6 +74,13 @@ public partial class ProductShow : Form
         panelAddOrUpdateProduct.Visible = true;
         panelProductDetails.Visible = false;
         addOrUpdate.Text = "הוסף";
+        //אתחול כל התאים
+        addIdProduct.Visible = false;
+        insertAddIdProduct.Text = "";
+        insertAddNameProduct.Text = "";
+        insertAddPrice.Text = "";
+        insertAddCategory.Text = "";
+        insertAddQuantityInStock.Text = "";
 
     }
 
@@ -114,7 +111,7 @@ public partial class ProductShow : Form
             }
             catch (Exception es)
             {
-                throw new Exception("שגיאה");
+                throw new Exception(es.Message);
             }
             try
             {
@@ -128,97 +125,26 @@ public partial class ProductShow : Form
 
         }
     }
-
-
-
-
-
-
-
-
-
-
-    private void textBox2_TextChanged(object sender, EventArgs e)
-    {
-
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    private void DgvShowAllProduct_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
-    {
-        /*    ///////////////// לבדוקקקקקקקקקקקקקקקק
-            if (e.RowIndex >= 0) // לוודא שהשורה שנבחרה היא חוקית
-            {
-                DataGridViewRow row = this.dataGridViewAllProduct.Rows[e.RowIndex];
-                // כאן תוכל לגשת לערכים של השורה
-                var selectedValue = row.Cells["ColumnName"].Value; // החלף "ColumnName" בשם העמודה שלך
-                                                                   // בצע פעולה עם הערך הנבחר
-
-            }*/
-    }
-
     private void dataGridViewAllProduct_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
     {
+        if (e.RowIndex >= 0)
+        {
+            // קבל את הערכים של השורה שנבחרה
+            DataGridViewRow row = dataGridViewAllProduct.Rows[e.RowIndex];
+            panelAllProduct.Visible = false;
+            panelAddOrUpdateProduct.Visible = true;
+            addOrUpdate.Text = "עדכן";
+            //  הצבת הערכים של המבצע הנבחר (השורה הנבחרת) בתוך התאים של עדכון מוצר
+            addIdProduct.Visible = true;
+            insertAddIdProduct.Text = row.Cells[0].Value.ToString();
+            insertAddNameProduct.Text = row.Cells[1].Value.ToString();
+            insertAddPrice.Text = row.Cells[2].Value.ToString();
+            insertAddCategory.Text = row.Cells[3].Value.ToString();
+            insertAddQuantityInStock.Text = row.Cells[4].Value.ToString();
 
+        }
     }
+    
 
-    private void panelAddOrUpdateProduct_Paint(object sender, PaintEventArgs e)
-    {
-
-    }
-
-    private void dataGridViewAllProduct_CellContentClick(object sender, DataGridViewCellEventArgs e)
-    {
-
-    }
-
-
-
-    private void insertAddPrice_TextChanged(object sender, EventArgs e)
-    {
-
-    }
-
-    private void label2_Click(object sender, EventArgs e)
-    {
-
-    }
 }
 

@@ -8,9 +8,9 @@ public partial class ManagerMenu : Form
 
     private void clients_Click(object sender, EventArgs e)
     {
-       ClientShow options = new ClientShow();
+        ClientShow options = new ClientShow();
         this.Hide();
-        options.FormClosed += options_FormClosed;
+        options.FormClosed += productShow_FormClosed;
         options.Show();
         options.Text = "מוצרים";
     }

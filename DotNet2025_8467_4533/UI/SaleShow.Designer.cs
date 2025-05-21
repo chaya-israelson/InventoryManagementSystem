@@ -74,18 +74,18 @@
             label16 = new Label();
             label17 = new Label();
             panelSaleDetails = new Panel();
-            idProduct = new Label();
-            showIdProduct = new Label();
-            showCount = new Label();
-            count = new Label();
-            startDate = new Label();
-            allClient = new Label();
-            price = new Label();
-            endDate = new Label();
-            showAllClient = new CheckBox();
-            showPrice = new Label();
-            showStartDate = new Label();
             showEndDate = new Label();
+            showStartDate = new Label();
+            showPrice = new Label();
+            showAllClient = new CheckBox();
+            endDate = new Label();
+            price = new Label();
+            allClient = new Label();
+            startDate = new Label();
+            count = new Label();
+            showCount = new Label();
+            showIdProduct = new Label();
+            idProduct = new Label();
             panelDeleteSale.SuspendLayout();
             panelAddOrUpdateSale.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)insertAddCount).BeginInit();
@@ -108,7 +108,6 @@
             panelDeleteSale.Name = "panelDeleteSale";
             panelDeleteSale.Size = new Size(603, 133);
             panelDeleteSale.TabIndex = 19;
-            panelDeleteSale.Paint += panelDeleteSale_Paint;
             // 
             // cancel
             // 
@@ -308,7 +307,6 @@
             panelAllSale.Name = "panelAllSale";
             panelAllSale.Size = new Size(543, 481);
             panelAllSale.TabIndex = 17;
-            panelAllSale.Paint += panelAllProduct_Paint;
             // 
             // dataGridViewAllSale
             // 
@@ -325,7 +323,7 @@
             // 
             // deleteSale
             // 
-            deleteSale.Location = new Point(774, 358);
+            deleteSale.Location = new Point(774, 414);
             deleteSale.Margin = new Padding(3, 4, 3, 4);
             deleteSale.Name = "deleteSale";
             deleteSale.Size = new Size(237, 71);
@@ -336,7 +334,7 @@
             // 
             // addSale
             // 
-            addSale.Location = new Point(774, 255);
+            addSale.Location = new Point(774, 311);
             addSale.Margin = new Padding(3, 4, 3, 4);
             addSale.Name = "addSale";
             addSale.Size = new Size(237, 71);
@@ -347,7 +345,7 @@
             // 
             // AllSales
             // 
-            AllSales.Location = new Point(774, 154);
+            AllSales.Location = new Point(774, 210);
             AllSales.Margin = new Padding(3, 4, 3, 4);
             AllSales.Name = "AllSales";
             AllSales.Size = new Size(237, 71);
@@ -358,7 +356,7 @@
             // 
             // ShowSale
             // 
-            ShowSale.Location = new Point(774, 55);
+            ShowSale.Location = new Point(774, 111);
             ShowSale.Margin = new Padding(3, 4, 3, 4);
             ShowSale.Name = "ShowSale";
             ShowSale.Size = new Size(237, 71);
@@ -385,6 +383,7 @@
             showIdSale.Name = "showIdSale";
             showIdSale.Size = new Size(157, 27);
             showIdSale.TabIndex = 22;
+            showIdSale.TextChanged += showIdSale_TextChanged;
             showIdSale.KeyDown += showIdSale_KeyDown;
             // 
             // idSale
@@ -535,69 +534,29 @@
             panelSaleDetails.Size = new Size(649, 321);
             panelSaleDetails.TabIndex = 20;
             // 
-            // idProduct
+            // showEndDate
             // 
-            idProduct.Location = new Point(409, 29);
-            idProduct.Name = "idProduct";
-            idProduct.Size = new Size(109, 27);
-            idProduct.TabIndex = 1;
-            idProduct.Text = "קוד מוצר";
+            showEndDate.Location = new Point(281, 250);
+            showEndDate.Name = "showEndDate";
+            showEndDate.Size = new Size(109, 27);
+            showEndDate.TabIndex = 12;
+            showEndDate.Text = "כמות למבצע";
             // 
-            // showIdProduct
+            // showStartDate
             // 
-            showIdProduct.Location = new Point(281, 29);
-            showIdProduct.Name = "showIdProduct";
-            showIdProduct.Size = new Size(109, 27);
-            showIdProduct.TabIndex = 2;
-            showIdProduct.Text = "קוד מוצר";
+            showStartDate.Location = new Point(281, 202);
+            showStartDate.Name = "showStartDate";
+            showStartDate.Size = new Size(109, 27);
+            showStartDate.TabIndex = 11;
+            showStartDate.Text = "כמות למבצע";
             // 
-            // showCount
+            // showPrice
             // 
-            showCount.Location = new Point(281, 68);
-            showCount.Name = "showCount";
-            showCount.Size = new Size(109, 27);
-            showCount.TabIndex = 3;
-            showCount.Text = "קוד מוצר";
-            // 
-            // count
-            // 
-            count.Location = new Point(409, 68);
-            count.Name = "count";
-            count.Size = new Size(109, 27);
-            count.TabIndex = 4;
-            count.Text = "כמות למבצע";
-            // 
-            // startDate
-            // 
-            startDate.Location = new Point(409, 202);
-            startDate.Name = "startDate";
-            startDate.Size = new Size(109, 27);
-            startDate.TabIndex = 5;
-            startDate.Text = "החל מתאריך";
-            // 
-            // allClient
-            // 
-            allClient.Location = new Point(409, 159);
-            allClient.Name = "allClient";
-            allClient.Size = new Size(109, 27);
-            allClient.TabIndex = 6;
-            allClient.Text = "לקוחות מועדון";
-            // 
-            // price
-            // 
-            price.Location = new Point(409, 115);
-            price.Name = "price";
-            price.Size = new Size(109, 27);
-            price.TabIndex = 7;
-            price.Text = "מחיר מבצע";
-            // 
-            // endDate
-            // 
-            endDate.Location = new Point(409, 250);
-            endDate.Name = "endDate";
-            endDate.Size = new Size(109, 27);
-            endDate.TabIndex = 8;
-            endDate.Text = "עד תאריך";
+            showPrice.Location = new Point(281, 115);
+            showPrice.Name = "showPrice";
+            showPrice.Size = new Size(109, 27);
+            showPrice.TabIndex = 10;
+            showPrice.Text = "כמות למבצע";
             // 
             // showAllClient
             // 
@@ -609,29 +568,69 @@
             showAllClient.TabIndex = 9;
             showAllClient.UseVisualStyleBackColor = true;
             // 
-            // showPrice
+            // endDate
             // 
-            showPrice.Location = new Point(281, 115);
-            showPrice.Name = "showPrice";
-            showPrice.Size = new Size(109, 27);
-            showPrice.TabIndex = 10;
-            showPrice.Text = "כמות למבצע";
+            endDate.Location = new Point(409, 250);
+            endDate.Name = "endDate";
+            endDate.Size = new Size(109, 27);
+            endDate.TabIndex = 8;
+            endDate.Text = "עד תאריך";
             // 
-            // showStartDate
+            // price
             // 
-            showStartDate.Location = new Point(281, 202);
-            showStartDate.Name = "showStartDate";
-            showStartDate.Size = new Size(109, 27);
-            showStartDate.TabIndex = 11;
-            showStartDate.Text = "כמות למבצע";
+            price.Location = new Point(409, 115);
+            price.Name = "price";
+            price.Size = new Size(109, 27);
+            price.TabIndex = 7;
+            price.Text = "מחיר מבצע";
             // 
-            // showEndDate
+            // allClient
             // 
-            showEndDate.Location = new Point(281, 250);
-            showEndDate.Name = "showEndDate";
-            showEndDate.Size = new Size(109, 27);
-            showEndDate.TabIndex = 12;
-            showEndDate.Text = "כמות למבצע";
+            allClient.Location = new Point(409, 159);
+            allClient.Name = "allClient";
+            allClient.Size = new Size(109, 27);
+            allClient.TabIndex = 6;
+            allClient.Text = "לקוחות מועדון";
+            // 
+            // startDate
+            // 
+            startDate.Location = new Point(409, 202);
+            startDate.Name = "startDate";
+            startDate.Size = new Size(109, 27);
+            startDate.TabIndex = 5;
+            startDate.Text = "החל מתאריך";
+            // 
+            // count
+            // 
+            count.Location = new Point(409, 68);
+            count.Name = "count";
+            count.Size = new Size(109, 27);
+            count.TabIndex = 4;
+            count.Text = "כמות למבצע";
+            // 
+            // showCount
+            // 
+            showCount.Location = new Point(281, 68);
+            showCount.Name = "showCount";
+            showCount.Size = new Size(109, 27);
+            showCount.TabIndex = 3;
+            showCount.Text = "קוד מוצר";
+            // 
+            // showIdProduct
+            // 
+            showIdProduct.Location = new Point(281, 29);
+            showIdProduct.Name = "showIdProduct";
+            showIdProduct.Size = new Size(109, 27);
+            showIdProduct.TabIndex = 2;
+            showIdProduct.Text = "קוד מוצר";
+            // 
+            // idProduct
+            // 
+            idProduct.Location = new Point(409, 29);
+            idProduct.Name = "idProduct";
+            idProduct.Size = new Size(109, 27);
+            idProduct.TabIndex = 1;
+            idProduct.Text = "קוד מוצר";
             // 
             // SaleShow
             // 

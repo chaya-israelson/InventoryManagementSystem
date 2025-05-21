@@ -35,9 +35,10 @@
             // 
             // clients
             // 
-            clients.Location = new Point(490, 137);
+            clients.Location = new Point(560, 183);
+            clients.Margin = new Padding(3, 4, 3, 4);
             clients.Name = "clients";
-            clients.Size = new Size(149, 66);
+            clients.Size = new Size(170, 88);
             clients.TabIndex = 0;
             clients.Text = "לקוחות";
             clients.UseVisualStyleBackColor = true;
@@ -45,9 +46,10 @@
             // 
             // products
             // 
-            products.Location = new Point(325, 137);
+            products.Location = new Point(371, 183);
+            products.Margin = new Padding(3, 4, 3, 4);
             products.Name = "products";
-            products.Size = new Size(149, 66);
+            products.Size = new Size(170, 88);
             products.TabIndex = 0;
             products.Text = "מוצרים";
             products.UseVisualStyleBackColor = true;
@@ -55,21 +57,24 @@
             // 
             // sales
             // 
-            sales.Location = new Point(160, 137);
+            sales.Location = new Point(183, 183);
+            sales.Margin = new Padding(3, 4, 3, 4);
             sales.Name = "sales";
-            sales.Size = new Size(149, 66);
+            sales.Size = new Size(170, 88);
             sales.TabIndex = 0;
             sales.Text = "מבצעים";
             sales.UseVisualStyleBackColor = true;
+            sales.Click += sales_Click;
             // 
             // ManagerMenu
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(914, 600);
             Controls.Add(sales);
             Controls.Add(products);
             Controls.Add(clients);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "ManagerMenu";
             Text = "ManagerMenu";
             ResumeLayout(false);

@@ -70,32 +70,32 @@
             // 
             // panelDeleteClient
             // 
+            panelDeleteClient.BackColor = Color.Transparent;
             panelDeleteClient.Controls.Add(cancel);
             panelDeleteClient.Controls.Add(OK);
             panelDeleteClient.Controls.Add(Id);
             panelDeleteClient.Controls.Add(insertId);
-            panelDeleteClient.Location = new Point(36, 122);
+            panelDeleteClient.Location = new Point(182, 201);
+            panelDeleteClient.Margin = new Padding(3, 4, 3, 4);
             panelDeleteClient.Name = "panelDeleteClient";
-            panelDeleteClient.Size = new Size(497, 100);
+            panelDeleteClient.Size = new Size(568, 133);
             panelDeleteClient.TabIndex = 19;
             panelDeleteClient.Paint += panelDeleteProduct_Paint;
             // 
             // cancel
             // 
-            cancel.Location = new Point(158, 64);
-            cancel.Margin = new Padding(3, 2, 3, 2);
+            cancel.Location = new Point(242, 86);
             cancel.Name = "cancel";
-            cancel.Size = new Size(61, 26);
+            cancel.Size = new Size(70, 35);
             cancel.TabIndex = 3;
             cancel.Text = "ביטול";
             cancel.UseVisualStyleBackColor = true;
             // 
             // OK
             // 
-            OK.Location = new Point(257, 64);
-            OK.Margin = new Padding(3, 2, 3, 2);
+            OK.Location = new Point(371, 86);
             OK.Name = "OK";
-            OK.Size = new Size(61, 26);
+            OK.Size = new Size(70, 35);
             OK.TabIndex = 2;
             OK.Text = "אישור";
             OK.UseVisualStyleBackColor = true;
@@ -103,22 +103,22 @@
             // 
             // Id
             // 
-            Id.Location = new Point(266, 36);
+            Id.Location = new Point(377, 49);
             Id.Name = "Id";
-            Id.Size = new Size(95, 20);
+            Id.Size = new Size(109, 27);
             Id.TabIndex = 1;
             Id.Text = "הכנס ת.ז.";
             // 
             // insertId
             // 
-            insertId.Location = new Point(60, 36);
-            insertId.Margin = new Padding(3, 2, 3, 2);
+            insertId.Location = new Point(178, 49);
             insertId.Name = "insertId";
-            insertId.Size = new Size(181, 23);
+            insertId.Size = new Size(180, 27);
             insertId.TabIndex = 0;
             // 
             // panelAddOrUpdateClient
             // 
+            panelAddOrUpdateClient.BackColor = Color.Transparent;
             panelAddOrUpdateClient.Controls.Add(insertAddId);
             panelAddOrUpdateClient.Controls.Add(addId);
             panelAddOrUpdateClient.Controls.Add(insertAddPhon);
@@ -128,53 +128,59 @@
             panelAddOrUpdateClient.Controls.Add(addPhon);
             panelAddOrUpdateClient.Controls.Add(addAddres);
             panelAddOrUpdateClient.Controls.Add(addNameClient);
-            panelAddOrUpdateClient.Location = new Point(167, 26);
+            panelAddOrUpdateClient.Location = new Point(332, 73);
+            panelAddOrUpdateClient.Margin = new Padding(3, 4, 3, 4);
             panelAddOrUpdateClient.Name = "panelAddOrUpdateClient";
-            panelAddOrUpdateClient.Size = new Size(324, 370);
+            panelAddOrUpdateClient.Size = new Size(370, 493);
             panelAddOrUpdateClient.TabIndex = 18;
             panelAddOrUpdateClient.Paint += panelAddOrUpdateProduct_Paint;
             // 
             // insertAddId
             // 
-            insertAddId.Location = new Point(102, 212);
+            insertAddId.Location = new Point(117, 283);
+            insertAddId.Margin = new Padding(3, 4, 3, 4);
             insertAddId.Name = "insertAddId";
-            insertAddId.Size = new Size(119, 23);
+            insertAddId.Size = new Size(135, 27);
             insertAddId.TabIndex = 10;
             // 
             // addId
             // 
-            addId.Location = new Point(239, 215);
+            addId.Location = new Point(273, 287);
             addId.Name = "addId";
-            addId.Size = new Size(103, 32);
+            addId.Size = new Size(118, 43);
             addId.TabIndex = 9;
             addId.Text = "ת.ז.";
             // 
             // insertAddPhon
             // 
-            insertAddPhon.Location = new Point(102, 161);
+            insertAddPhon.Location = new Point(117, 215);
+            insertAddPhon.Margin = new Padding(3, 4, 3, 4);
             insertAddPhon.Name = "insertAddPhon";
-            insertAddPhon.Size = new Size(119, 23);
+            insertAddPhon.Size = new Size(135, 27);
             insertAddPhon.TabIndex = 8;
             // 
             // insertAddAddres
             // 
-            insertAddAddres.Location = new Point(102, 115);
+            insertAddAddres.Location = new Point(117, 153);
+            insertAddAddres.Margin = new Padding(3, 4, 3, 4);
             insertAddAddres.Name = "insertAddAddres";
-            insertAddAddres.Size = new Size(119, 23);
+            insertAddAddres.Size = new Size(135, 27);
             insertAddAddres.TabIndex = 7;
             // 
             // insertAddNameClient
             // 
-            insertAddNameClient.Location = new Point(102, 69);
+            insertAddNameClient.Location = new Point(117, 92);
+            insertAddNameClient.Margin = new Padding(3, 4, 3, 4);
             insertAddNameClient.Name = "insertAddNameClient";
-            insertAddNameClient.Size = new Size(119, 23);
+            insertAddNameClient.Size = new Size(135, 27);
             insertAddNameClient.TabIndex = 6;
             // 
             // addOrUpdate
             // 
-            addOrUpdate.Location = new Point(163, 279);
+            addOrUpdate.Location = new Point(186, 372);
+            addOrUpdate.Margin = new Padding(3, 4, 3, 4);
             addOrUpdate.Name = "addOrUpdate";
-            addOrUpdate.Size = new Size(71, 38);
+            addOrUpdate.Size = new Size(81, 51);
             addOrUpdate.TabIndex = 5;
             addOrUpdate.Text = "הוסף";
             addOrUpdate.UseVisualStyleBackColor = true;
@@ -182,53 +188,58 @@
             // 
             // addPhon
             // 
-            addPhon.Location = new Point(239, 161);
+            addPhon.Location = new Point(273, 215);
             addPhon.Name = "addPhon";
-            addPhon.Size = new Size(103, 32);
+            addPhon.Size = new Size(118, 43);
             addPhon.TabIndex = 4;
             addPhon.Text = "פלאפון";
             // 
             // addAddres
             // 
-            addAddres.Location = new Point(239, 112);
+            addAddres.Location = new Point(273, 149);
             addAddres.Name = "addAddres";
-            addAddres.Size = new Size(103, 32);
+            addAddres.Size = new Size(118, 43);
             addAddres.TabIndex = 2;
             addAddres.Text = "כתובת";
             // 
             // addNameClient
             // 
-            addNameClient.Location = new Point(239, 69);
+            addNameClient.Location = new Point(273, 92);
             addNameClient.Name = "addNameClient";
-            addNameClient.Size = new Size(103, 32);
+            addNameClient.Size = new Size(118, 43);
             addNameClient.TabIndex = 1;
             addNameClient.Text = "שם לקוח";
             // 
             // dataGridViewAllClient
             // 
+            dataGridViewAllClient.BackgroundColor = SystemColors.ButtonHighlight;
             dataGridViewAllClient.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewAllClient.Location = new Point(0, 3);
+            dataGridViewAllClient.Location = new Point(0, 30);
+            dataGridViewAllClient.Margin = new Padding(3, 4, 3, 4);
             dataGridViewAllClient.Name = "dataGridViewAllClient";
             dataGridViewAllClient.RowHeadersWidth = 51;
             dataGridViewAllClient.RowTemplate.Height = 25;
-            dataGridViewAllClient.Size = new Size(475, 320);
+            dataGridViewAllClient.Size = new Size(543, 427);
             dataGridViewAllClient.TabIndex = 0;
             dataGridViewAllClient.CellContentClick += dataGridViewAllProduct_CellContentClick;
             // 
             // panelAllClient
             // 
+            panelAllClient.BackColor = Color.Transparent;
             panelAllClient.Controls.Add(dataGridViewAllClient);
-            panelAllClient.Location = new Point(36, 38);
+            panelAllClient.Location = new Point(182, 89);
+            panelAllClient.Margin = new Padding(3, 4, 3, 4);
             panelAllClient.Name = "panelAllClient";
-            panelAllClient.Size = new Size(475, 361);
+            panelAllClient.Size = new Size(543, 481);
             panelAllClient.TabIndex = 17;
             panelAllClient.Paint += panelAllProduct_Paint;
             // 
             // updetClient
             // 
-            updetClient.Location = new Point(545, 346);
+            updetClient.Location = new Point(759, 466);
+            updetClient.Margin = new Padding(3, 4, 3, 4);
             updetClient.Name = "updetClient";
-            updetClient.Size = new Size(207, 53);
+            updetClient.Size = new Size(237, 71);
             updetClient.TabIndex = 16;
             updetClient.Text = "עדכון לקוח";
             updetClient.UseVisualStyleBackColor = true;
@@ -236,99 +247,101 @@
             // 
             // panelClientDetails
             // 
+            panelClientDetails.BackColor = Color.Transparent;
             panelClientDetails.Controls.Add(Phon);
             panelClientDetails.Controls.Add(label6);
             panelClientDetails.Controls.Add(Addres);
             panelClientDetails.Controls.Add(label4);
             panelClientDetails.Controls.Add(label3);
             panelClientDetails.Controls.Add(nameClient);
-            panelClientDetails.Location = new Point(117, 143);
-            panelClientDetails.Margin = new Padding(3, 2, 3, 2);
+            panelClientDetails.Location = new Point(314, 192);
             panelClientDetails.Name = "panelClientDetails";
-            panelClientDetails.Size = new Size(343, 231);
+            panelClientDetails.Size = new Size(392, 308);
             panelClientDetails.TabIndex = 15;
             panelClientDetails.Paint += panelProductDetails_Paint;
             // 
             // Phon
             // 
-            Phon.Location = new Point(177, 61);
+            Phon.Location = new Point(222, 104);
             Phon.Name = "Phon";
-            Phon.Size = new Size(97, 23);
+            Phon.Size = new Size(111, 31);
             Phon.TabIndex = 5;
             Phon.Text = "טלפון";
             // 
             // label6
             // 
-            label6.Location = new Point(74, 61);
+            label6.Location = new Point(105, 104);
             label6.Name = "label6";
-            label6.Size = new Size(97, 23);
+            label6.Size = new Size(111, 31);
             label6.TabIndex = 4;
             label6.Text = "label6";
             // 
             // Addres
             // 
-            Addres.Location = new Point(177, 37);
+            Addres.Location = new Point(222, 67);
             Addres.Name = "Addres";
-            Addres.Size = new Size(97, 23);
+            Addres.Size = new Size(111, 31);
             Addres.TabIndex = 3;
             Addres.Text = "כתובת";
             // 
             // label4
             // 
-            label4.Location = new Point(74, 37);
+            label4.Location = new Point(105, 67);
             label4.Name = "label4";
-            label4.Size = new Size(97, 23);
+            label4.Size = new Size(111, 31);
             label4.TabIndex = 2;
             label4.Text = "label4";
             // 
             // label3
             // 
-            label3.Location = new Point(74, 13);
+            label3.Location = new Point(105, 30);
             label3.Name = "label3";
-            label3.Size = new Size(97, 23);
+            label3.Size = new Size(111, 31);
             label3.TabIndex = 1;
             label3.Text = "label3";
             // 
             // nameClient
             // 
-            nameClient.Location = new Point(177, 13);
+            nameClient.Location = new Point(222, 30);
             nameClient.Name = "nameClient";
-            nameClient.Size = new Size(97, 23);
+            nameClient.Size = new Size(111, 31);
             nameClient.TabIndex = 0;
             nameClient.Text = ":שם לקוח";
             // 
             // panelShowClient
             // 
+            panelShowClient.BackColor = Color.Transparent;
             panelShowClient.Controls.Add(idClient);
             panelShowClient.Controls.Add(showIdClient);
-            panelShowClient.Location = new Point(117, 63);
+            panelShowClient.Location = new Point(314, 85);
+            panelShowClient.Margin = new Padding(3, 4, 3, 4);
             panelShowClient.Name = "panelShowClient";
-            panelShowClient.Size = new Size(343, 75);
+            panelShowClient.Size = new Size(392, 100);
             panelShowClient.TabIndex = 14;
             panelShowClient.Paint += panelShowProduct_Paint;
             // 
             // idClient
             // 
-            idClient.Location = new Point(243, 36);
+            idClient.Location = new Point(278, 48);
             idClient.Name = "idClient";
-            idClient.Size = new Size(95, 20);
+            idClient.Size = new Size(109, 27);
             idClient.TabIndex = 1;
             idClient.Text = "הכנס ת.ז.";
             // 
             // showIdClient
             // 
-            showIdClient.Location = new Point(31, 36);
-            showIdClient.Margin = new Padding(3, 2, 3, 2);
+            showIdClient.Location = new Point(55, 48);
             showIdClient.Name = "showIdClient";
-            showIdClient.Size = new Size(181, 23);
+            showIdClient.Size = new Size(186, 27);
             showIdClient.TabIndex = 0;
             showIdClient.KeyDown += showIdClient_KeyDown;
             // 
             // deleteClient
             // 
-            deleteClient.Location = new Point(545, 264);
+            deleteClient.Location = new Point(759, 357);
+            deleteClient.Margin = new Padding(3, 4, 3, 4);
             deleteClient.Name = "deleteClient";
-            deleteClient.Size = new Size(207, 53);
+            deleteClient.Size = new Size(237, 71);
             deleteClient.TabIndex = 10;
             deleteClient.Text = "מחק לקוח";
             deleteClient.UseVisualStyleBackColor = true;
@@ -336,9 +349,10 @@
             // 
             // addClient
             // 
-            addClient.Location = new Point(545, 187);
+            addClient.Location = new Point(759, 254);
+            addClient.Margin = new Padding(3, 4, 3, 4);
             addClient.Name = "addClient";
-            addClient.Size = new Size(207, 53);
+            addClient.Size = new Size(237, 71);
             addClient.TabIndex = 11;
             addClient.Text = "הוסף לקוח";
             addClient.UseVisualStyleBackColor = true;
@@ -346,9 +360,10 @@
             // 
             // AllClients
             // 
-            AllClients.Location = new Point(545, 111);
+            AllClients.Location = new Point(759, 153);
+            AllClients.Margin = new Padding(3, 4, 3, 4);
             AllClients.Name = "AllClients";
-            AllClients.Size = new Size(207, 53);
+            AllClients.Size = new Size(237, 71);
             AllClients.TabIndex = 12;
             AllClients.Text = "כל הלקוחות";
             AllClients.UseVisualStyleBackColor = true;
@@ -356,9 +371,10 @@
             // 
             // ShowClient
             // 
-            ShowClient.Location = new Point(545, 37);
+            ShowClient.Location = new Point(759, 54);
+            ShowClient.Margin = new Padding(3, 4, 3, 4);
             ShowClient.Name = "ShowClient";
-            ShowClient.Size = new Size(207, 53);
+            ShowClient.Size = new Size(237, 71);
             ShowClient.TabIndex = 13;
             ShowClient.Text = "הצג לקוח";
             ShowClient.UseVisualStyleBackColor = true;
@@ -366,9 +382,11 @@
             // 
             // ClientShow
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            BackgroundImage = Properties.Resources.world_tourism_day_coronavirus_pandemic_travel_accessories_objects_flat_lay_143683_4760;
+            BackgroundImageLayout = ImageLayout.Stretch;
+            ClientSize = new Size(1037, 600);
             Controls.Add(panelDeleteClient);
             Controls.Add(panelAddOrUpdateClient);
             Controls.Add(panelAllClient);
@@ -379,6 +397,7 @@
             Controls.Add(addClient);
             Controls.Add(AllClients);
             Controls.Add(ShowClient);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "ClientShow";
             Text = "ClientShow";
             panelDeleteClient.ResumeLayout(false);

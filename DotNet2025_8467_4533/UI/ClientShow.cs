@@ -43,7 +43,7 @@ public partial class ClientShow : Form
         panelAllClient.Visible = false;
         addOrUpdate.Text = "הוספה";
         panelDeleteClient.Visible = false;
-    
+
     }
     private void updetClient_Click(object sender, EventArgs e)
     {
@@ -55,7 +55,7 @@ public partial class ClientShow : Form
         // insertAddId.Visible = false;
         addOrUpdate.Text = "עדכון";
         panelDeleteClient.Visible = false;
-     
+
     }
 
     private void deleteClient_Click(object sender, EventArgs e)
@@ -114,7 +114,7 @@ public partial class ClientShow : Form
             {
                 Client client = new Client(int.Parse(insertAddId.Text), insertAddNameClient.Text, insertAddAddres.Text, insertAddPhon.Text);
                 s_bl.client.Create(client);
-              
+
             }
             catch (Exception ex)
             {
@@ -127,7 +127,6 @@ public partial class ClientShow : Form
             {
                 Client client = new Client(int.Parse(insertAddId.Text), insertAddNameClient.Text, insertAddAddres.Text, insertAddPhon.Text);
                 s_bl.client.Update(client);
-
             }
             catch (Exception ex)
             {

@@ -1,15 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ArrayOfSale xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Sale>
-    <IdSale>102</IdSale>
-    <IdProduct>12346</IdProduct>
-    <Count>5</Count>
-    <TotalPrice>199</TotalPrice>
-    <AllCustomers>true</AllCustomers>
-    <StartDate>2025-05-07T12:10:18.785387+03:00</StartDate>
-    <EndDate>2025-05-07T12:10:18.78539+03:00</EndDate>
-  </Sale>
-  <Sale>
     <IdSale>103</IdSale>
     <IdProduct>12347</IdProduct>
     <Count>3</Count>
